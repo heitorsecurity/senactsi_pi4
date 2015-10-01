@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Juliet Calçados</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sobre">Sobre</string>
+    <string name="txtTermos">Termos e Condições</string>
+    <string name="btnAceito">ACEITO OS TERMOS E CONDIÇÕES</string>
+    <string name="btnSair">Sair</string>
+</resources>
