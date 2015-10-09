@@ -1,5 +1,6 @@
 package com.wesbalbinolive.julietapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -31,6 +32,8 @@ public class TermosActivity extends AppCompatActivity {
         if (id == R.id.action_settings) {
             return true;
         } else if (id == R.id.sobre){
+            Intent intent = new Intent(TermosActivity.this, SobreActivity.class);
+            startActivity(intent);
             return true;
         }
 
