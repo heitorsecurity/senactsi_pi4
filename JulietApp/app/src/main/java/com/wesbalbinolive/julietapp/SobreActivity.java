@@ -1,9 +1,9 @@
 package com.wesbalbinolive.julietapp;
 
 import android.content.Intent;
-import android.os.Bundle;
-import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -21,7 +21,7 @@ public class SobreActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_termos, menu);
+        getMenuInflater().inflate(R.menu.menu_home, menu);
         return true;
     }
 
@@ -32,13 +32,16 @@ public class SobreActivity extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        switch (item.getItemId()) {
+        switch (id){
             case android.R.id.home:
                 this.finish();
                 return true;
-            default:
-                return super.onOptionsItemSelected(item);
+            case R.id.action_Login:
+                Intent login = new Intent(SobreActivity.this, LoginActivity.class);
+                startActivity(login);
+                return true;
         }
-    }
 
+        return super.onOptionsItemSelected(item);
+    }
 }

@@ -17,8 +17,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/txtTermos"
-            android:id="@+id/txtTermos"
+            android:text="@string/txtMsgTermos"
+            android:id="@+id/txtMsgTermos"
             android:textColor="#000000"
             android:paddingTop="15sp"
             android:paddingLeft="15sp"
@@ -62,11 +62,11 @@
             android:textColor="#696969"
             android:padding="10sp"
             android:textSize="10sp"
-            android:layout_weight="0.41" />
+            android:layout_weight="0.18" />
 
         <Button
             android:layout_width="253dp"
-            android:layout_height="wrap_content"
+            android:layout_height="36dp"
             android:text="@string/btnAceito"
             android:id="@+id/btnAceito"
             android:layout_gravity="center_horizontal"
@@ -74,13 +74,17 @@
             android:focusable="true"
             android:layout_marginBottom="6dp"/>
 
-        <Button
-            android:layout_width="253dp"
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/btnSair"
             android:id="@+id/btnSair"
             android:layout_gravity="center_horizontal"
-            android:background="#f32f0f" />
+            android:textColor="#ff0000"
+            android:layout_weight="0.11"
+            android:gravity="bottom"
+            android:textSize="15sp" />
+
     </LinearLayout>
 </LinearLayout>
-<!-- From: file:/home/tmac/Github/senactsi_pi4/JulietApp/app/src/main/res/layout/activity_termos.xml -->
+<!-- From: file:/C:/Users/Wes/Downloads/Senac/Projeto/JulietApp/app/src/main/res/layout/activity_termos.xml -->

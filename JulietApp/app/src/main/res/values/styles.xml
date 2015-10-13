@@ -3,9 +3,14 @@
     <style name="AppTheme" parent="Theme.AppCompat">
         <item name="colorPrimary">#ffc107</item>
         <item name="colorPrimaryDark">#ff9800</item>
-        <item name="colorAccent">#64DD17</item>
+        <item name="colorAccent">#2196f3</item>
         <item name="android:textColorPrimary">#ffffff</item>
         <item name="android:textColorSecondary">#000000</item>
     </style>
 
+    <style name="appCam" parent="Theme.AppCompat">
+        <item name="android:colorPrimary">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundStacked">@android:color/transparent</item>
+    </style>
 </resources>
