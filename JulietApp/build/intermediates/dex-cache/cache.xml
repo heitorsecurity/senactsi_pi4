@@ -2,67 +2,39 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Wes\Downloads\Senac\Projeto\JulietApp\app\src\libs\zbar.jar"
+        jar="C:\Users\criacaoweb\Documents\git\senactsi_pi4\JulietApp\app\src\libs\zbar.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
-        <dex dex="C:\Users\Wes\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\pre-dexed\release\zbar-336801c40fcc268fd1b71ef1ad2230581e28765d.jar" />
+        <dex dex="C:\Users\criacaoweb\Documents\git\senactsi_pi4\JulietApp\app\build\intermediates\pre-dexed\debug\zbar-a62ec7d3ec728c0b36e2821f0919301f76559ef1.jar" />
     </item>
     <item
-        jar="C:\Users\Wes\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jar="C:\Users\criacaoweb\Documents\git\senactsi_pi4\JulietApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
-        <dex dex="C:\Users\Wes\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\pre-dexed\release\classes-75e574e38d59bf8f534bbeaa85fe4fb0fc181610.jar" />
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="C:\Users\criacaoweb\Documents\git\senactsi_pi4\JulietApp\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-0578b4ca57252db8f0112bad4eb0eaa9fa889127.jar" />
     </item>
     <item
-        jar="C:\Users\Wes\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
-        <dex dex="C:\Users\Wes\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\pre-dexed\release\classes-3ad33a37b97d8f6b25087fce120effa4e548048b.jar" />
-    </item>
-    <item
-        jar="C:\Users\Wes\Downloads\Senac\Projeto\Backup\JulietApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
-        <dex dex="C:\Users\Wes\Downloads\Senac\Projeto\Backup\JulietApp\app\build\intermediates\pre-dexed\debug\classes-9bda4802bc9540c7d0a5e7b859f55d4270b6feec.jar" />
-    </item>
-    <item
-        jar="C:\Users\Wes\Downloads\Senac\Projeto\Backup\JulietApp\app\src\libs\zbar.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
-        <dex dex="C:\Users\Wes\Downloads\Senac\Projeto\Backup\JulietApp\app\build\intermediates\pre-dexed\debug\zbar-be59d0d1eb31f2495ba6b6512a603971afe49a55.jar" />
-    </item>
-    <item
-        jar="C:\Users\Wes\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jar="C:\Users\criacaoweb\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
-        <dex dex="C:\Users\Wes\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\pre-dexed\release\support-annotations-23.0.0-2cab874326f97ddf14d0f4c625946ee7e894161a.jar" />
+        <dex dex="C:\Users\criacaoweb\Documents\git\senactsi_pi4\JulietApp\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0-2da2ae6e463758ada639a4c61cacba5303797494.jar" />
     </item>
     <item
-        jar="C:\Users\Wes\Downloads\Senac\Projeto\Backup\JulietApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jar="C:\Users\criacaoweb\Documents\git\senactsi_pi4\JulietApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
-        <dex dex="C:\Users\Wes\Downloads\Senac\Projeto\Backup\JulietApp\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-2f7b2757b39ca6749b71103046e52ea57dbe362a.jar" />
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="C:\Users\criacaoweb\Documents\git\senactsi_pi4\JulietApp\app\build\intermediates\pre-dexed\debug\classes-c97682feb327e64d23b686df00761eb7b416cc1a.jar" />
     </item>
     <item
-        jar="C:\Users\Wes\Downloads\Senac\Projeto\Backup\JulietApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jar="C:\Users\criacaoweb\Documents\git\senactsi_pi4\JulietApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
-        <dex dex="C:\Users\Wes\Downloads\Senac\Projeto\Backup\JulietApp\app\build\intermediates\pre-dexed\debug\classes-3343b24f72b8437fa5c797c30ebf0e0436cf80cf.jar" />
-    </item>
-    <item
-        jar="C:\Users\Wes\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
-        <dex dex="C:\Users\Wes\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\pre-dexed\release\internal_impl-23.0.0-ab3c0578f1da21b3fa4bc47a9d62751e7704b3aa.jar" />
+        <dex dex="C:\Users\criacaoweb\Documents\git\senactsi_pi4\JulietApp\app\build\intermediates\pre-dexed\debug\classes-091e52b179c48fb7a95af9afb7362b7a57e30ec8.jar" />
     </item>
 
 </items>

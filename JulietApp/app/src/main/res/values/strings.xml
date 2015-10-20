@@ -17,4 +17,7 @@
     <string name="edtSenhaCadastro">Senha</string>
     <string name="edtUsuarioLogin">Usuário</string>
     <string name="edtSenhaLogin">Senha</string>
+    <string name="sobre">Sobre</string>
+    <string name="opendrawer">Abrir</string>
+    <string name="closedrawer">Fechar</string>
 </resources>
