@@ -10,12 +10,29 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 
-public class HomeActivity extends AppCompatActivity {
+import java.sql.Struct;
+import java.util.ArrayList;
 
-    /*public Button btnCam;*/
+public class HomeActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
+
+    /*public Button btnCam;
+
+    btnCam = (Button) findViewById(R.id.btnCam);
+
+    btnCam.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            Intent camera = new Intent(HomeActivity.this, CameraActivity.class);
+            startActivity(camera);
+            finish();
+        }
+    });*/
+
     private ActionBarDrawerToggle actionBarDrawerToggle;
     private DrawerLayout drawerLayout;
     private ListView navList;
@@ -26,23 +43,21 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
         drawerLayout = (DrawerLayout)findViewById(R.id.drawerLayout);
         navList = (ListView)findViewById(R.id.navlist);
+        ArrayList<String> navArray = new ArrayList<String>();
+        navArray.add("Categoria de Calçados");
+        navArray.add("Esportivos");
+        navArray.add("Casuais");
+        navArray.add("Linha Infantil");
+        navArray.add("Salto Alto");
+        navArray.add("Chinelos");
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,navArray);
+        navList.setAdapter(adapter);
         actionBarDrawerToggle = new ActionBarDrawerToggle(this,drawerLayout,R.string.opendrawer,R.string.closedrawer);
         drawerLayout.setDrawerListener(actionBarDrawerToggle);
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayShowHomeEnabled(true);
         actionBar.setDisplayHomeAsUpEnabled(true);
-
-        /*btnCam = (Button) findViewById(R.id.btnCam);
-
-        btnCam.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent camera = new Intent(HomeActivity.this, CameraActivity.class);
-                startActivity(camera);
-                finish();
-            }
-        });*/
     }
 
     @Override
@@ -88,5 +103,23 @@ public class HomeActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        switch (position){
+            case 0:
+                break;
+            case 1:
+                break;
+            case 2:
+                break;
+            case 3:
+                break;
+            case 4:
+                break;
+            case 5:
+                break;
+        }
     }
 }
