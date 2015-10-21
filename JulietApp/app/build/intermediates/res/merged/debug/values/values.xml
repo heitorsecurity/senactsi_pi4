@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/tmac/git/senactsi_pi4/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/criacaoweb/Documents/git/senactsi_pi4/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -167,11 +167,11 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/home/tmac/git/senactsi_pi4/JulietApp/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/criacaoweb/Documents/git/senactsi_pi4/JulietApp/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/home/tmac/git/senactsi_pi4/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/criacaoweb/Documents/git/senactsi_pi4/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
@@ -215,7 +215,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/home/tmac/git/senactsi_pi4/JulietApp/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/criacaoweb/Documents/git/senactsi_pi4/JulietApp/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_cadastro">Cadastro</string>
     <string name="action_login">Login</string>
@@ -235,21 +235,21 @@
     <string name="edtUsuarioLogin">Usuário</string>
     <string name="opendrawer">Abrir</string>
     <string name="sobre">Sobre</string>
-    <!-- From: file:/home/tmac/git/senactsi_pi4/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/criacaoweb/Documents/git/senactsi_pi4/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <!-- From: file:/home/tmac/git/senactsi_pi4/JulietApp/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/criacaoweb/Documents/git/senactsi_pi4/JulietApp/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="txtMsgCadastro">Crie sua conta</string>
     <string name="txtMsgLogin">Entre com seus dados</string>
     <string name="txtMsgTermos">Termos e Condições</string>
-    <!-- From: file:/home/tmac/git/senactsi_pi4/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/criacaoweb/Documents/git/senactsi_pi4/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
-    <!-- From: file:/home/tmac/git/senactsi_pi4/JulietApp/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/criacaoweb/Documents/git/senactsi_pi4/JulietApp/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.AppCompat">
         <item name="colorPrimary">#ffc107</item>
@@ -258,7 +258,7 @@
         <item name="android:textColorPrimary">#ffffff</item>
         <item name="android:textColorSecondary">#000000</item>
     </style>
-    <!-- From: file:/home/tmac/git/senactsi_pi4/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/criacaoweb/Documents/git/senactsi_pi4/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -1526,7 +1526,7 @@
     <style name="Widget.AppCompat.TextView.SpinnerItem" parent="Base.Widget.AppCompat.TextView.SpinnerItem"/>
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation"/>
-    <!-- From: file:/home/tmac/git/senactsi_pi4/JulietApp/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/criacaoweb/Documents/git/senactsi_pi4/JulietApp/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="appCam" parent="Theme.AppCompat">
         <item name="android:colorPrimary">@android:color/transparent</item>

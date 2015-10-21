@@ -18,7 +18,7 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="128dp"
+            android:layout_height="179dp"
             android:layout_gravity="right"
             android:background="@drawable/home">
 
@@ -28,6 +28,70 @@
                 android:layout_height="wrap_content"
                 android:text="Camera"
                 android:id="@+id/btnCam" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:layout_gravity="bottom"
+            android:paddingTop="40dp"
+            android:background="#dddddd">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:layout_gravity="left"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#FFFFFF">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="105dp"
+                android:layout_gravity="right"
+                android:background="@drawable/tennis_nike_air1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tennis Nike Air"
+                android:textSize="20dp"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_gravity="right"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="#FFFFFF">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="105dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/tennis_nike_air2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tennis Nike Air"
+                    android:textSize="20dp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
 
         </LinearLayout>
 
