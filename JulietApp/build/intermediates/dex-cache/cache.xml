@@ -2,39 +2,39 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\criacaoweb\Documents\git\senactsi_pi4\JulietApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jar="/home/tmac/git/senactsi_pi4/JulietApp/app/src/libs/zbar.jar"
         jumboMode="false"
-        revision="23.0.0"
-        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
-        <dex dex="C:\Users\criacaoweb\Documents\git\senactsi_pi4\JulietApp\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-0578b4ca57252db8f0112bad4eb0eaa9fa889127.jar" />
-    </item>
-    <item
-        jar="C:\Users\criacaoweb\Documents\git\senactsi_pi4\JulietApp\app\src\libs\zbar.jar"
-        jumboMode="false"
-        revision="23.0.0"
+        revision="23.0.1"
         sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
-        <dex dex="C:\Users\criacaoweb\Documents\git\senactsi_pi4\JulietApp\app\build\intermediates\pre-dexed\debug\zbar-a62ec7d3ec728c0b36e2821f0919301f76559ef1.jar" />
+        <dex dex="/home/tmac/git/senactsi_pi4/JulietApp/app/build/intermediates/pre-dexed/debug/zbar-0f86537ac1b4d92e769449c052268e054716556b.jar" />
     </item>
     <item
-        jar="C:\Users\criacaoweb\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jar="/home/tmac/git/senactsi_pi4/JulietApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
         jumboMode="false"
-        revision="23.0.0"
-        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
-        <dex dex="C:\Users\criacaoweb\Documents\git\senactsi_pi4\JulietApp\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0-2da2ae6e463758ada639a4c61cacba5303797494.jar" />
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/home/tmac/git/senactsi_pi4/JulietApp/app/build/intermediates/pre-dexed/debug/classes-c86fce07e6e958a843f15876e6fe3d3664c84f06.jar" />
     </item>
     <item
-        jar="C:\Users\criacaoweb\Documents\git\senactsi_pi4\JulietApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jar="/home/tmac/git/senactsi_pi4/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
         jumboMode="false"
-        revision="23.0.0"
-        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
-        <dex dex="C:\Users\criacaoweb\Documents\git\senactsi_pi4\JulietApp\app\build\intermediates\pre-dexed\debug\classes-091e52b179c48fb7a95af9afb7362b7a57e30ec8.jar" />
+        revision="23.0.1"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="/home/tmac/git/senactsi_pi4/JulietApp/app/build/intermediates/pre-dexed/debug/classes-65bca2b2d15f5f9ab76834b7a1bbdd97825adc28.jar" />
     </item>
     <item
-        jar="C:\Users\criacaoweb\Documents\git\senactsi_pi4\JulietApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
+        jar="/home/tmac/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
         jumboMode="false"
-        revision="23.0.0"
-        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
-        <dex dex="C:\Users\criacaoweb\Documents\git\senactsi_pi4\JulietApp\app\build\intermediates\pre-dexed\debug\classes-c97682feb327e64d23b686df00761eb7b416cc1a.jar" />
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/home/tmac/git/senactsi_pi4/JulietApp/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-096483425004cb14c09c94661e7d761d87261e00.jar" />
+    </item>
+    <item
+        jar="/home/tmac/git/senactsi_pi4/JulietApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/home/tmac/git/senactsi_pi4/JulietApp/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-cb45d69764adb33798f4cfd9ad1f834b8d9b6120.jar" />
     </item>
 
 </items>

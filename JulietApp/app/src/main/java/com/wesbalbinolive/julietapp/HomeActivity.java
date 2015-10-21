@@ -20,18 +20,7 @@ import java.util.ArrayList;
 
 public class HomeActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
-    /*public Button btnCam;
-
-    btnCam = (Button) findViewById(R.id.btnCam);
-
-    btnCam.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View view) {
-            Intent camera = new Intent(HomeActivity.this, CameraActivity.class);
-            startActivity(camera);
-            finish();
-        }
-    });*/
+    private Button btnCam;
 
     private ActionBarDrawerToggle actionBarDrawerToggle;
     private DrawerLayout drawerLayout;
@@ -58,6 +47,17 @@ public class HomeActivity extends AppCompatActivity implements AdapterView.OnIte
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayShowHomeEnabled(true);
         actionBar.setDisplayHomeAsUpEnabled(true);
+
+        btnCam = (Button) findViewById(R.id.btnCam);
+
+        btnCam.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent camera = new Intent(HomeActivity.this, CameraActivity.class);
+                startActivity(camera);
+                finish();
+            }
+        });
     }
 
     @Override
