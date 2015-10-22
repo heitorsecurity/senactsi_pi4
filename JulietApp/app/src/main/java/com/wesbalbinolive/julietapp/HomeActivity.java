@@ -2,6 +2,7 @@ package com.wesbalbinolive.julietapp;
 
 import android.content.Intent;
 import android.os.PersistableBundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -20,7 +21,7 @@ import java.util.ArrayList;
 
 public class HomeActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
-    private Button btnCam;
+    private FloatingActionButton btnCam;
 
     private ActionBarDrawerToggle actionBarDrawerToggle;
     private DrawerLayout drawerLayout;
@@ -48,7 +49,7 @@ public class HomeActivity extends AppCompatActivity implements AdapterView.OnIte
         actionBar.setDisplayShowHomeEnabled(true);
         actionBar.setDisplayHomeAsUpEnabled(true);
 
-        btnCam = (Button) findViewById(R.id.btnCam);
+        btnCam = (FloatingActionButton) findViewById(R.id.btnCam);
 
         btnCam.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -92,9 +93,8 @@ public class HomeActivity extends AppCompatActivity implements AdapterView.OnIte
                 return true;
         }
 
-        if(id == R.id.action_settings){
-            return true;
-        }else if(id == android.R.id.home);{
+
+       if(id == android.R.id.home);{
             if(drawerLayout.isDrawerOpen(navList)){
                 drawerLayout.closeDrawer(navList);
             }else{
