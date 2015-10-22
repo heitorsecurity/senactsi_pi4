@@ -14,6 +14,6 @@
         android:title="@string/action_sobre"
         android:orderInCategory="150"
         app:showAsAction="always"
-        android:icon="@drawable/sobre"/>
+        android:icon="@drawable/ic_sobre"/>
 
 </menu>

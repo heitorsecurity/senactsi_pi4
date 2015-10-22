@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
     <!-- From: file:/home/tmac/git/senactsi_pi4/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-ta-rIN/values-ta-rIN.xml -->
+=======
+    <!-- From: file:/C:/Users/Wes/Downloads/senactsi_pi4-master/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-ta-rIN/values-ta-rIN.xml -->
+>>>>>>> 8163779e1282c469194a7c9240c65fa8b529b8f8
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"முகப்பிற்கு வழிசெலுத்து"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>

@@ -1,19 +1,43 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.wesbalbinolive.julietapp.HomeActivity"
-    android:background="#dddddd">
+    android:background="#000">
 
     <android.support.v4.widget.DrawerLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/drawerLayout">
 
+<<<<<<< HEAD
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/fragmentholder">
+=======
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:layout_gravity="bottom"
+            android:paddingTop="40dp"
+            android:background="#111">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_gravity="left"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#FFFFFF">
+>>>>>>> 8163779e1282c469194a7c9240c65fa8b529b8f8
 
             <LinearLayout
                 android:orientation="vertical"
@@ -34,7 +58,7 @@
 
             <LinearLayout
                 android:orientation="vertical"
-                android:layout_width="180dp"
+                android:layout_width="150dp"
                 android:layout_height="200dp"
                 android:layout_gravity="left"
                 android:paddingTop="10dp"
@@ -90,6 +114,7 @@
 
         </FrameLayout>
 
+<<<<<<< HEAD
         <ListView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -107,6 +132,22 @@
         android:src="@drawable/ic_camera"
         android:layout_margin="@dimen/fab">
     </android.support.design.widget.FloatingActionButton>
+=======
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnCam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        app:elevation="4dp"
+        app:pressedTranslationZ="8dp"
+        app:borderWidth="0dp"
+        app:fabSize="normal"
+        android:src="@drawable/ic_qr"
+        android:padding="20dp"
+        android:paddingLeft="20dp"
+        app:backgroundTint="#D50000"/>
+
+>>>>>>> 8163779e1282c469194a7c9240c65fa8b529b8f8
 
 
 </FrameLayout>
