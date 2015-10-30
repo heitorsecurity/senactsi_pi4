@@ -41,10 +41,6 @@ public class CadastroActivity extends AppCompatActivity {
                 Intent sobre = new Intent(CadastroActivity.this, SobreActivity.class);
                 startActivity(sobre);
                 return true;
-            case R.id.action_Login:
-                Intent login = new Intent(CadastroActivity.this, LoginActivity.class);
-                startActivity(login);
-                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }

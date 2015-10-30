@@ -3,136 +3,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.wesbalbinolive.julietapp.HomeActivity"
-    android:background="#000">
+    android:background="#ddd">
 
     <android.support.v4.widget.DrawerLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/drawerLayout">
+        android:id="@+id/drawer">
 
-<<<<<<< HEAD
-        <FrameLayout
-            android:layout_width="match_parent"
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nav_view"
             android:layout_height="match_parent"
-            android:id="@+id/fragmentholder">
-=======
-        </LinearLayout>
+            android:layout_width="wrap_content"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/header_menu"
+            app:menu="@menu/nav_menu">
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="330dp"
-            android:layout_gravity="bottom"
-            android:paddingTop="40dp"
-            android:background="#111">
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="150dp"
-            android:layout_height="200dp"
-            android:layout_gravity="left"
-            android:paddingTop="10dp"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            android:layout_marginRight="10dp"
-            android:background="#FFFFFF">
->>>>>>> 8163779e1282c469194a7c9240c65fa8b529b8f8
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="179dp"
-                android:layout_gravity="right"
-                android:background="@drawable/home">
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="330dp"
-                android:layout_gravity="bottom"
-                android:paddingTop="40dp"
-                android:background="#dddddd">
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="150dp"
-                android:layout_height="200dp"
-                android:layout_gravity="left"
-                android:paddingTop="10dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:layout_marginRight="10dp"
-                android:background="#FFFFFF">
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="105dp"
-                    android:layout_gravity="right"
-                    android:background="@drawable/tennis_nike_air1" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Tennis Nike Air"
-                    android:textSize="20dp"
-                    android:textColor="#000000"/>
-
-            </LinearLayout>
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="180dp"
-                    android:layout_height="200dp"
-                    android:layout_gravity="right"
-                    android:paddingTop="10dp"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:background="#FFFFFF">
-
-                    <LinearLayout
-                        android:orientation="vertical"
-                        android:layout_width="wrap_content"
-                        android:layout_height="105dp"
-                        android:layout_gravity="right"
-                        android:background="@drawable/tennis_nike_air2" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Tennis Nike Air"
-                        android:textSize="20dp"
-                        android:textColor="#000000"/>
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-        </FrameLayout>
-
-<<<<<<< HEAD
-        <ListView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/navlist"
-            android:background="#757575"
-            android:layout_gravity="start"/>
+        </android.support.design.widget.NavigationView>
 
     </android.support.v4.widget.DrawerLayout>
 
-    <android.support.design.widget.FloatingActionButton
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:id="@+id/btnCam"
-        android:layout_gravity="bottom|end"
-        android:src="@drawable/ic_camera"
-        android:layout_margin="@dimen/fab">
-    </android.support.design.widget.FloatingActionButton>
-=======
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/btnCam"
         android:layout_width="wrap_content"
@@ -142,12 +34,37 @@
         app:pressedTranslationZ="8dp"
         app:borderWidth="0dp"
         app:fabSize="normal"
-        android:src="@drawable/ic_qr"
-        android:padding="20dp"
-        android:paddingLeft="20dp"
-        app:backgroundTint="#D50000"/>
+        android:src="@drawable/ic_camera" />
 
->>>>>>> 8163779e1282c469194a7c9240c65fa8b529b8f8
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_gravity="center_horizontal|top"
+        android:background="#fff"
+        android:id="@+id/searchBar"
+        android:weightSum="1"
+        android:padding="10dp"
+        android:visibility="gone">
 
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtSearch"
+            android:layout_weight="0.86"
+            android:textColor="#000"
+            android:textColorHint="#9c9c9c"
+            android:hint="@string/edtSearch"
+            android:textIsSelectable="false" />
 
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:text="@string/btnSearch"
+            android:id="@+id/btnSearch"
+            android:layout_weight="0.12"
+            android:background="#2196f3"
+            android:textColor="#fff" />
+    </LinearLayout>
 </FrameLayout>

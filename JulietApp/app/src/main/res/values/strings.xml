@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">Juliet Calçados</string>
     <string name="btnCadastrar">Cadastrar</string>
-    <string name="btnAceito">Aceitos os termos e condiçoes</string>
+    <string name="btnAceito">Acessar a loja</string>
     <string name="btnSair">Não concordo</string>
+    <string name="btnSearch">Ir</string>
     <string name="btnEntrar">Entrar</string>
     <string name="btnCadastro">Não sou cadastrado ainda</string>
     <string name="action_sobre">Sobre</string>
@@ -18,7 +19,18 @@
     <string name="edtUsuarioLogin">Usuário</string>
     <string name="edtSenhaLogin">Senha</string>
     <string name="sobre">Sobre</string>
+    <string name="txtMsgEndereco">Dados de Endereço</string>
+    <string name="edtCep">Cep</string>
+    <string name="edtLogradouro">Logradouro</string>
+    <string name="edtBairro">Bairro</string>
+    <string name="edtCidade">Cidade</string>
     <string name="opendrawer">Abrir</string>
     <string name="closedrawer">Fechar</string>
     <string name="txtMsgSobre">Sobre Juliet Calçados</string>
+    <string name="chkMsg">Aceito os termos e condições</string>
+    <string name="abrirMenu">Abrir menu</string>
+    <string name="fecharMenu">Fechar menu</string>
+    <string name="edtSearch">Pesquisar</string>
+    <string name="btnAddAoCarrinho">Add ao carrinho</string>
+
 </resources>

@@ -1,13 +1,95 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.wesbalbinolive.julietapp.ProdutoActivity">
+    tools:context="com.wesbalbinolive.julietapp.ProdutoActivity"
+    android:background="#ddd">
 
-    <TextView android:text="..." android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/txtAlgo" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="430dp"
+            android:background="#fff"
+            android:weightSum="1">
 
-</RelativeLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Tenis Nike Air"
+                android:id="@+id/txtProduto"
+                android:textSize="18sp"
+                android:paddingBottom="6dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp" />
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="130dp"
+                android:id="@+id/imgProduto"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/produto" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c0c0c0"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat voluptat."
+                android:id="@+id/txtDescricaoProduto"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#696969"
+                android:padding="10dp"
+                android:textSize="13sp"
+                android:layout_marginTop="10dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:weightSum="1"
+                android:layout_marginTop="15dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.11">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="De: 499,99"
+                        android:id="@+id/txtDescontoProduto"
+                        android:textSize="12sp"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="3dp"
+                        android:layout_marginTop="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Por: 399,99"
+                        android:id="@+id/txtPrecoProduto"
+                        android:paddingLeft="10dp" />
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnAddAoCarrinho"
+                    android:id="@+id/btnAddCarrinho"
+                    android:layout_weight="0.83"
+                    android:background="#2196f3"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>

@@ -28,8 +28,4 @@
         android:textAppearance="?attr/actionMenuTextAppearance"
         android:textColor="?attr/actionMenuTextColor"
         style="?attr/actionButtonStyle"/>
-<<<<<<< HEAD
-<!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-supportlib-release/frameworks/support/v7/appcompat/res/layout/abc_action_menu_item_layout.xml --><!-- From: file:/home/tmac/git/senactsi_pi4/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_menu_item_layout.xml -->
-=======
-<!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-supportlib-release/frameworks/support/v7/appcompat/res/layout/abc_action_menu_item_layout.xml --><!-- From: file:/C:/Users/Wes/Downloads/senactsi_pi4-master/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_menu_item_layout.xml -->
->>>>>>> 8163779e1282c469194a7c9240c65fa8b529b8f8
+<!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-supportlib-release/frameworks/support/v7/appcompat/res/layout/abc_action_menu_item_layout.xml --><!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_menu_item_layout.xml -->

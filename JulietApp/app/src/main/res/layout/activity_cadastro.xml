@@ -90,7 +90,8 @@
                 android:text="@string/btnCadastrar"
                 android:id="@+id/btnCadastrar"
                 android:layout_gravity="center_horizontal"
-                android:background="#2196f3" />
+                android:background="#2196f3"
+                android:textColor="#fff" />
 
 
         </LinearLayout>

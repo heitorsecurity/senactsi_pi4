@@ -36,10 +36,6 @@ public class SobreActivity extends AppCompatActivity {
             case android.R.id.home:
                 this.finish();
                 return true;
-            case R.id.action_Login:
-                Intent login = new Intent(SobreActivity.this, LoginActivity.class);
-                startActivity(login);
-                return true;
         }
 
         return super.onOptionsItemSelected(item);

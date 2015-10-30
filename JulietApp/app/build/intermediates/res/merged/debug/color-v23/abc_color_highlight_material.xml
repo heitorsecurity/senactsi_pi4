@@ -20,8 +20,4 @@
           android:alpha="@dimen/highlight_alpha_material_colored"
           android:color="?android:attr/colorControlActivated" />
     <item android:color="?android:attr/colorControlHighlight" />
-<<<<<<< HEAD
-</selector><!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-supportlib-release/frameworks/support/v7/appcompat/res/color-v23/abc_color_highlight_material.xml --><!-- From: file:/home/tmac/git/senactsi_pi4/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/color-v23/abc_color_highlight_material.xml -->
-=======
-</selector><!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-supportlib-release/frameworks/support/v7/appcompat/res/color-v23/abc_color_highlight_material.xml --><!-- From: file:/C:/Users/Wes/Downloads/senactsi_pi4-master/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/color-v23/abc_color_highlight_material.xml -->
->>>>>>> 8163779e1282c469194a7c9240c65fa8b529b8f8
+</selector><!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-supportlib-release/frameworks/support/v7/appcompat/res/color-v23/abc_color_highlight_material.xml --><!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/color-v23/abc_color_highlight_material.xml -->

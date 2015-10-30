@@ -88,16 +88,16 @@ public class CameraActivity extends AppCompatActivity{
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-            switch (id){
-                case android.R.id.home:
-                    Intent home = new Intent(CameraActivity.this, HomeActivity.class);
-                    startActivity(home);
-                    finish();
-                    return true;
-                default:
-                    return super.onOptionsItemSelected(item);
-            }
+        switch (id){
+            case android.R.id.home:
+                Intent home = new Intent(CameraActivity.this, HomeActivity.class);
+                startActivity(home);
+                finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
         }
+    }
 
 
 

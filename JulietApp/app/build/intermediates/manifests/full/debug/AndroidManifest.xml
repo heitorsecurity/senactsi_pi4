@@ -36,9 +36,7 @@
             android:name="com.wesbalbinolive.julietapp.ProdutoActivity"
             android:label="@string/app_name" >
         </activity>
-        <activity
-            android:name="com.wesbalbinolive.julietapp.CameraActivity"
-            android:theme="@style/appCam" >
+        <activity android:name="com.wesbalbinolive.julietapp.CameraActivity" >
         </activity>
         <activity
             android:name="com.wesbalbinolive.julietapp.LoginActivity"
@@ -50,6 +48,10 @@
         </activity>
         <activity
             android:name="com.wesbalbinolive.julietapp.SobreActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.wesbalbinolive.julietapp.EnderecoActivity"
             android:label="@string/app_name" >
         </activity>
     </application>

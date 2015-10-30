@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<<<<<<< HEAD
-    <!-- From: file:/home/tmac/git/senactsi_pi4/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-xlarge/values-xlarge.xml -->
-=======
-    <!-- From: file:/C:/Users/Wes/Downloads/senactsi_pi4-master/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-xlarge/values-xlarge.xml -->
->>>>>>> 8163779e1282c469194a7c9240c65fa8b529b8f8
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-xlarge/values-xlarge.xml -->
     <eat-comment/>
     <bool name="abc_action_bar_expanded_action_views_exclusive">false</bool>
     <item name="abc_dialog_fixed_height_major" type="dimen">60%</item>

@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.wesbalbinolive.julietapp.EnderecoActivity"
+    android:background="#ddd">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/endereco"></LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/txtMsgEndereco"
+                android:id="@+id/textView13"
+                android:textColor="#000"
+                android:padding="20dp"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.00" >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtCep"
+                    android:paddingLeft="15dp"
+                    android:paddingBottom="20dp"
+                    android:textColor="#000"
+                    android:textColorHint="#9c9c9c"
+                    android:hint="@string/edtCep"
+                    android:inputType="number" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtLogradouro"
+                    android:paddingLeft="15dp"
+                    android:paddingBottom="20dp"
+                    android:textColor="#000"
+                    android:textColorHint="#9c9c9c"
+                    android:hint="@string/edtLogradouro"
+                    android:inputType="text" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtBairro"
+                    android:paddingLeft="15dp"
+                    android:paddingBottom="20dp"
+                    android:textColor="#000"
+                    android:textColorHint="#9c9c9c"
+                    android:hint="@string/edtBairro"
+                    android:inputType="text" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtCidade"
+                    android:paddingLeft="15dp"
+                    android:paddingBottom="20dp"
+                    android:textColor="#000"
+                    android:textColorHint="#9c9c9c"
+                    android:hint="@string/edtCidade"
+                    android:layout_weight="0.00"
+                    android:inputType="text" />
+
+                <Button
+                    android:layout_width="224dp"
+                    android:layout_height="36dp"
+                    android:text="Concluir"
+                    android:id="@+id/btnConcluir"
+                    android:layout_gravity="center_horizontal"
+                    android:background="#2196f3"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
