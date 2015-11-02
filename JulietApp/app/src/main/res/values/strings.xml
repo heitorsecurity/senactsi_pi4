@@ -32,5 +32,8 @@
     <string name="fecharMenu">Fechar menu</string>
     <string name="edtSearch">Pesquisar</string>
     <string name="btnAddAoCarrinho">Add ao carrinho</string>
+    <string name="title_activity_carrinho">CarrinhoActivity</string>
+    <string name="txtMsgCarrinho">Carrinho de Compras</string>
+    <string name="btnContinuarCompra">+ Continuar Comprando</string>
 
 </resources>

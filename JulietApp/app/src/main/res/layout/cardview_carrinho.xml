@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true"
+    android:background="#ddd">
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="67dp"
+            android:id="@+id/imgProduto"
+            android:src="@drawable/produto"
+            android:layout_marginLeft="20dp"
+            android:contentDescription="Imagem_produto" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="124dp"
+            android:layout_height="67dp"
+            android:layout_weight="0.29">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Tenis Nike Air"
+                android:id="@+id/txtNomeProduto"
+                android:textSize="12sp"
+                android:paddingLeft="15dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="40dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="De: 499,99"
+                android:id="@+id/txtDescontoProduto"
+                android:textSize="12sp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="3dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Por: 399,99"
+                android:id="@+id/txtPrecoProduto"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView >

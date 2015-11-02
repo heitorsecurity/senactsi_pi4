@@ -48,6 +48,14 @@
             android:name=".EnderecoActivity"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name=".CarrinhoActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".PesquisaActivity"
+            android:label="@string/app_name" >
+        </activity>
     </application>
 
 </manifest>

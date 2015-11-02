@@ -54,6 +54,14 @@
             android:name="com.wesbalbinolive.julietapp.EnderecoActivity"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name="com.wesbalbinolive.julietapp.CarrinhoActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.wesbalbinolive.julietapp.PesquisaActivity"
+            android:label="@string/app_name" >
+        </activity>
     </application>
 
 </manifest>

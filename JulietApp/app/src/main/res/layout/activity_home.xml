@@ -36,35 +36,4 @@
         app:fabSize="normal"
         android:src="@drawable/ic_camera" />
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="62dp"
-        android:layout_gravity="center_horizontal|top"
-        android:background="#fff"
-        android:id="@+id/searchBar"
-        android:weightSum="1"
-        android:padding="10dp"
-        android:visibility="gone">
-
-        <EditText
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/edtSearch"
-            android:layout_weight="0.86"
-            android:textColor="#000"
-            android:textColorHint="#9c9c9c"
-            android:hint="@string/edtSearch"
-            android:textIsSelectable="false" />
-
-        <Button
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:text="@string/btnSearch"
-            android:id="@+id/btnSearch"
-            android:layout_weight="0.12"
-            android:background="#2196f3"
-            android:textColor="#fff" />
-    </LinearLayout>
 </FrameLayout>

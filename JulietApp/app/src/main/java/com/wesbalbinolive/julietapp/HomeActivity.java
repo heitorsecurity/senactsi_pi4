@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
@@ -20,7 +21,6 @@ public class HomeActivity extends AppCompatActivity {
     public DrawerLayout drawerLayout;
     public ActionBarDrawerToggle actionBarDrawerToggle;
     public FloatingActionButton btnCam;
-    public LinearLayout searchBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +30,41 @@ public class HomeActivity extends AppCompatActivity {
         navigationView = (NavigationView) findViewById(R.id.nav_view);
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer);
         btnCam = (FloatingActionButton) findViewById(R.id.btnCam);
-        searchBar = (LinearLayout) findViewById(R.id.searchBar);
+
+        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(MenuItem item) {
+
+                int id = item.getItemId();
+
+                if (item.isChecked()) {
+                    item.setChecked(false);
+                } else{
+                    item.setChecked(true);
+                }
+
+                drawerLayout.closeDrawers();
+
+                switch (id){
+                    case R.id.action_categorias:
+                        return true;
+                    case R.id.action_carrinho:
+                        Intent carrinho = new Intent(HomeActivity.this, CarrinhoActivity.class);
+                        startActivity(carrinho);
+                        return true;
+                    case R.id.action_camera:
+                        Intent camera = new Intent(HomeActivity.this, CameraActivity.class);
+                        startActivity(camera);
+                        return true;
+                    case R.id.action_sobre:
+                        Intent sobre = new Intent(HomeActivity.this, SobreActivity.class);
+                        startActivity(sobre);
+                        return true;
+                }
+                return false;
+            }
+        });
+
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
@@ -47,7 +81,6 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(camera);
             }
         });
-
 
     }
 
@@ -73,10 +106,8 @@ public class HomeActivity extends AppCompatActivity {
         if (actionBarDrawerToggle.onOptionsItemSelected(item)) {
             if (btnCam.getVisibility() == View.VISIBLE) {
                 btnCam.setVisibility(View.GONE);
-                searchBar.setVisibility(View.GONE);
             } else{
                 btnCam.setVisibility(View.VISIBLE);
-                searchBar.setVisibility(View.VISIBLE);
             }
 
             return true;
@@ -91,11 +122,8 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(sobre);
                 return true;
             case R.id.action_search:
-                if (searchBar.getVisibility() == View.GONE){
-                    searchBar.setVisibility(View.VISIBLE);
-                } else{
-                    searchBar.setVisibility(View.GONE);
-                }
+                Intent pesquisa = new Intent(HomeActivity.this, PesquisaActivity.class);
+                startActivity(pesquisa);
         }
 
         return super.onOptionsItemSelected(item);
