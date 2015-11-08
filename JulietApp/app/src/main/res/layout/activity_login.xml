@@ -55,7 +55,9 @@
                 android:id="@+id/edtUsuarioLogin"
                 android:paddingLeft="15dp"
                 android:textColor="#000"
-                android:layout_weight="0.10" />
+                android:layout_weight="0.10"
+                android:maxLength="20"
+                android:maxLines="1" />
 
 
 
@@ -70,7 +72,9 @@
                 android:layout_weight="0.10"
                 android:gravity="bottom"
                 android:paddingLeft="15dp"
-                android:textColor="#000" />
+                android:textColor="#000"
+                android:maxLength="20"
+                android:maxLines="1" />
 
             <Button
                 android:layout_width="224dp"

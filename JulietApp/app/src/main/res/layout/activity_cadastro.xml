@@ -10,7 +10,8 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="#fff">
 
         <LinearLayout
             android:orientation="vertical"
@@ -54,7 +55,9 @@
                 android:textColor="#000"
                 android:layout_weight="0.10"
                 android:paddingLeft="15dp"
-                android:paddingBottom="20dp" />
+                android:paddingBottom="20dp"
+                android:maxLines="1"
+                android:maxLength="20" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -68,7 +71,9 @@
                 android:gravity="bottom"
                 android:textColor="#000"
                 android:paddingBottom="20dp"
-                android:paddingLeft="15dp" />
+                android:paddingLeft="15dp"
+                android:maxLines="1"
+                android:maxLength="50" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -82,7 +87,9 @@
                 android:gravity="bottom"
                 android:textColor="#000"
                 android:paddingLeft="15dp"
-                android:paddingBottom="20dp" />
+                android:paddingBottom="20dp"
+                android:maxLength="20"
+                android:maxLines="1" />
 
             <Button
                 android:layout_width="224dp"

@@ -1,33 +1,16 @@
-
 package com.wesbalbinolive.julietapp;
 
-import com.wesbalbinolive.julietapp.CameraPreview;
-
-import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
-
-import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.view.Window;
 import android.widget.FrameLayout;
-import android.widget.Button;
-
 import android.hardware.Camera;
 import android.hardware.Camera.PreviewCallback;
 import android.hardware.Camera.AutoFocusCallback;
-import android.hardware.Camera.Parameters;
 import android.hardware.Camera.Size;
-
-import android.widget.TextView;
-import android.graphics.ImageFormat;
-
 /* Import ZBar Class files */
 import net.sourceforge.zbar.ImageScanner;
 import net.sourceforge.zbar.Image;
@@ -73,21 +56,11 @@ public class CameraActivity extends AppCompatActivity{
 
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_camera, menu);
-        return true;
-    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
         switch (id){
             case android.R.id.home:
                 Intent home = new Intent(CameraActivity.this, HomeActivity.class);
@@ -99,15 +72,11 @@ public class CameraActivity extends AppCompatActivity{
         }
     }
 
-
-
-
     public void onPause() {
         super.onPause();
         releaseCamera();
     }
 
-    /** A safe way to get an instance of the Camera object. */
     public static Camera getCameraInstance(){
         Camera c = null;
         try {
@@ -159,7 +128,6 @@ public class CameraActivity extends AppCompatActivity{
         }
     };
 
-    // Mimic continuous auto-focusing
     AutoFocusCallback autoFocusCB = new AutoFocusCallback() {
         public void onAutoFocus(boolean success, Camera camera) {
             autoFocusHandler.postDelayed(doAutoFocus, 1000);

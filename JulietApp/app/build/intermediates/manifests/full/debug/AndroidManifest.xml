@@ -62,6 +62,22 @@
             android:name="com.wesbalbinolive.julietapp.PesquisaActivity"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name="com.wesbalbinolive.julietapp.ErroActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.wesbalbinolive.julietapp.CheckoutActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.wesbalbinolive.julietapp.CategoriasActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.wesbalbinolive.julietapp.FinalizadaActivity"
+            android:label="@string/app_name" >
+        </activity>
     </application>
 
 </manifest>

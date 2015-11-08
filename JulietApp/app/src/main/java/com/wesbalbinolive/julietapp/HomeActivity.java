@@ -10,9 +10,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
-import android.widget.FrameLayout;
-import android.widget.LinearLayout;
+import android.widget.TextView;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -39,14 +37,16 @@ public class HomeActivity extends AppCompatActivity {
 
                 if (item.isChecked()) {
                     item.setChecked(false);
-                } else{
+                } else {
                     item.setChecked(true);
                 }
 
                 drawerLayout.closeDrawers();
 
-                switch (id){
+                switch (id) {
                     case R.id.action_categorias:
+                        Intent categorias = new Intent(HomeActivity.this, CategoriasActivity.class);
+                        startActivity(categorias);
                         return true;
                     case R.id.action_carrinho:
                         Intent carrinho = new Intent(HomeActivity.this, CarrinhoActivity.class);
@@ -60,6 +60,10 @@ public class HomeActivity extends AppCompatActivity {
                         Intent sobre = new Intent(HomeActivity.this, SobreActivity.class);
                         startActivity(sobre);
                         return true;
+                    case R.id.action_produto:
+                        Intent produto = new Intent(HomeActivity.this, ProdutoActivity.class);
+                        startActivity(produto);
+                        return true;
                 }
                 return false;
             }
@@ -70,8 +74,8 @@ public class HomeActivity extends AppCompatActivity {
         getSupportActionBar().setHomeButtonEnabled(true);
 
         actionBarDrawerToggle = new ActionBarDrawerToggle(HomeActivity.this, drawerLayout, R.string.abrirMenu, R.string.fecharMenu);
-        drawerLayout.setDrawerListener(actionBarDrawerToggle);
 
+        drawerLayout.setDrawerListener(actionBarDrawerToggle);
         actionBarDrawerToggle.syncState();
 
         btnCam.setOnClickListener(new View.OnClickListener() {
@@ -92,30 +96,20 @@ public class HomeActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_home, menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
 
         if (actionBarDrawerToggle.onOptionsItemSelected(item)) {
-            if (btnCam.getVisibility() == View.VISIBLE) {
-                btnCam.setVisibility(View.GONE);
-            } else{
-                btnCam.setVisibility(View.VISIBLE);
-            }
 
             return true;
         }
 
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
         switch (id) {
             case R.id.action_sobre:
                 Intent sobre = new Intent(HomeActivity.this, SobreActivity.class);
@@ -124,6 +118,7 @@ public class HomeActivity extends AppCompatActivity {
             case R.id.action_search:
                 Intent pesquisa = new Intent(HomeActivity.this, PesquisaActivity.class);
                 startActivity(pesquisa);
+                return true;
         }
 
         return super.onOptionsItemSelected(item);

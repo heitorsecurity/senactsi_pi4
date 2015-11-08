@@ -8,9 +8,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
-
 import org.json.JSONObject;
-
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -47,7 +45,6 @@ public class EnderecoActivity extends AppCompatActivity {
                 wsEndereco.execute(valor);
             }
         });
-
     }
 
     public class WsEndereco extends AsyncTask<String, Void, String> {
@@ -75,7 +72,6 @@ public class EnderecoActivity extends AppCompatActivity {
             return null;
         }
 
-
         @Override
         protected void onPostExecute(String s) {
             try {
@@ -99,7 +95,6 @@ public class EnderecoActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-
         getMenuInflater().inflate(R.menu.menu_home, menu);
         return true;
     }
@@ -117,10 +112,11 @@ public class EnderecoActivity extends AppCompatActivity {
                 Intent intent = new Intent(EnderecoActivity.this, SobreActivity.class);
                 startActivity(intent);
                 return true;
+            case R.id.action_search:
+                Intent pesquisa = new Intent(EnderecoActivity.this, PesquisaActivity.class);
+                startActivity(pesquisa);
+                return true;
         }
-
-
-
         return super.onOptionsItemSelected(item);
     }
 }

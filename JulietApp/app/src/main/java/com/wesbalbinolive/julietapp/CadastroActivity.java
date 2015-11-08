@@ -20,31 +20,28 @@ public class CadastroActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_home, menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
+
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
         switch (id){
             case android.R.id.home:
                 this.finish();
                 return true;
             case R.id.action_sobre:
-                Intent sobre = new Intent(CadastroActivity.this, SobreActivity.class);
-                startActivity(sobre);
+                Intent intent = new Intent(CadastroActivity.this, SobreActivity.class);
+                startActivity(intent);
                 return true;
-            default:
-                return super.onOptionsItemSelected(item);
+            case R.id.action_search:
+                Intent pesquisa = new Intent(CadastroActivity.this, PesquisaActivity.class);
+                startActivity(pesquisa);
+                return true;
         }
-
-
+        return super.onOptionsItemSelected(item);
     }
 }

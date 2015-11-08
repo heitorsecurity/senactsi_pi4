@@ -26,6 +26,12 @@
             android:checkable="false"
             android:icon="@drawable/ic_sobre">
         </item>
+        <item
+            android:id="@+id/action_produto"
+            android:title="Produto"
+            android:checkable="false"
+            android:icon="@drawable/ic_sobre">
+        </item>
 
     </group>
 

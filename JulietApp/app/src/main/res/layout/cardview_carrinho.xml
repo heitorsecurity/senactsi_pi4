@@ -16,8 +16,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#fff"
-        android:weightSum="1">
+        android:weightSum="1"
+        android:id="@+id/produto">
 
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chkProduto"
+            android:checked="false" />
 
         <ImageView
             android:layout_width="100dp"
@@ -29,9 +36,8 @@
 
         <LinearLayout
             android:orientation="vertical"
-            android:layout_width="124dp"
-            android:layout_height="67dp"
-            android:layout_weight="0.29">
+            android:layout_width="wrap_content"
+            android:layout_height="67dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -42,7 +48,7 @@
                 android:textSize="12sp"
                 android:paddingLeft="15dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginRight="40dp" />
+                android:layout_marginRight="10dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -60,6 +66,24 @@
                 android:text="Por: 399,99"
                 android:id="@+id/txtPrecoProduto"
                 android:paddingLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="68dp">
+
+            <EditText
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/edtQtd"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginTop="15dp"
+                android:hint="@string/edtQtd"
+                android:maxLength="2" />
+
         </LinearLayout>
 
     </LinearLayout>

@@ -56,6 +56,22 @@
             android:name=".PesquisaActivity"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name=".ErroActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".CheckoutActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".CategoriasActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".FinalizadaActivity"
+            android:label="@string/app_name" >
+        </activity>
     </application>
 
 </manifest>

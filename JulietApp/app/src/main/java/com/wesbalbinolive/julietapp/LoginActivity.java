@@ -6,15 +6,18 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ImageView;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
-
-import java.io.InputStream;
-import java.net.URL;
 
 public class LoginActivity extends AppCompatActivity {
 
-    public TextView btnCadastro;
+    private TextView btnCadastro;
+    private EditText edtUsuarioLogin, edtUsuarioSenha;
+    private Button btnEntrar;
+    private String usuarioDigitado, senhaDigitada;
+    private SessionProduto data;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +27,27 @@ public class LoginActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
 
+        edtUsuarioLogin = (EditText) findViewById(R.id.edtUsuarioLogin);
+        edtUsuarioSenha = (EditText) findViewById(R.id.edtSenhaLogin);
+        btnEntrar = (Button) findViewById(R.id.btnEntrar);
         btnCadastro = (TextView) findViewById(R.id.btnCadastro);
+
+
+        btnEntrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                data = SessionProduto.getInstance();
+                usuarioDigitado = edtUsuarioLogin.getText().toString();
+                senhaDigitada = edtUsuarioSenha.getText().toString();
+                data.setLogin(usuarioDigitado);
+                data.setSenha(senhaDigitada);
+                data.setUsuarioLogado(true);
+                Intent checkout = new Intent(LoginActivity.this, CheckoutActivity.class);
+                startActivity(checkout);
+                finish();
+            }
+        });
+
 
         btnCadastro.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,16 +61,12 @@ public class LoginActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_home, menu);
         return true;
     }
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
+
         int id = item.getItemId();
 
         switch (id){
@@ -55,11 +74,14 @@ public class LoginActivity extends AppCompatActivity {
                 this.finish();
                 return true;
             case R.id.action_sobre:
-                Intent sobre = new Intent(LoginActivity.this, SobreActivity.class);
-                startActivity(sobre);
+                Intent intent = new Intent(LoginActivity.this, SobreActivity.class);
+                startActivity(intent);
                 return true;
-            default:
-                return super.onOptionsItemSelected(item);
+            case R.id.action_search:
+                Intent pesquisa = new Intent(LoginActivity.this, PesquisaActivity.class);
+                startActivity(pesquisa);
+                return true;
         }
+        return super.onOptionsItemSelected(item);
     }
 }

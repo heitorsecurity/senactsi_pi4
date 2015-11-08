@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.wesbalbinolive.julietapp.CarrinhoActivity"
-    android:background="#ddd">
+    android:background="#ddd"
+    android:id="@+id/frame">
 
 
     <LinearLayout
@@ -38,15 +39,15 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/scrollView">
+            android:layout_height="match_parent">
 
 
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/container">
+                android:id="@+id/container"
+                android:background="#ddd">
 
             </LinearLayout>
 
