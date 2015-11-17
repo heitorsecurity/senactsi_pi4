@@ -26,4 +26,8 @@ dependencies {
     compile 'com.android.support:design:23.1.0'
     compile files('src/libs/zbar.jar')
     compile 'com.android.support:cardview-v7:23.1.0'
+    compile 'cn.pedant.sweetalert:library:1.1'
+    compile('com.mikepenz:materialdrawer:4.4.6@aar') {
+        transitive = true
+    }
 }

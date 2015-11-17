@@ -10,7 +10,7 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="fill_parent"
         android:background="#fff">
 
         <LinearLayout
@@ -97,7 +97,7 @@
                 android:text="@string/btnCadastrar"
                 android:id="@+id/btnCadastrar"
                 android:layout_gravity="center_horizontal"
-                android:background="#2196f3"
+                android:background="#455A64"
                 android:textColor="#fff" />
 
 

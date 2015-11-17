@@ -1,24 +1,16 @@
 package com.wesbalbinolive.julietapp;
 
 
-public class SessionProduto {
+public class SessionUsuario {
 
-    private int qtdProduto;
-    private String usuarioLogin, senhaLogin;
+    private String usuarioLogin;
+    private String senhaLogin;
+    private String emailLogin;
     private boolean usuarioLogado;
 
-    private  SessionProduto(){
+    private SessionUsuario(){
 
     }
-
-    public void setQuantidade(int qtdProduto){
-        this.qtdProduto = qtdProduto;
-    }
-
-    public int getQuantidade(){
-        return qtdProduto;
-    }
-
 
     public void setLogin(String usuarioLogin){
         this.usuarioLogin = usuarioLogin;
@@ -36,6 +28,14 @@ public class SessionProduto {
         return senhaLogin;
     }
 
+    public void setEmailLogin(String emailLogin){
+        this.emailLogin = emailLogin;
+    }
+
+    public String getEmail(){
+        return emailLogin;
+    }
+
     public void setUsuarioLogado(boolean usuarioLogado){
         this.usuarioLogado = usuarioLogado;
     }
@@ -45,9 +45,9 @@ public class SessionProduto {
     }
 
 
-    public static final SessionProduto INSTANCE = new SessionProduto();
+    public static final SessionUsuario INSTANCE = new SessionUsuario();
 
-    public static SessionProduto getInstance(){
+    public static SessionUsuario getInstance(){
         return INSTANCE;
     }
 

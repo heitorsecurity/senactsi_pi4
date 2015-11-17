@@ -1,5 +1,6 @@
 package com.wesbalbinolive.julietapp;
 
+
 import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
@@ -10,7 +11,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.TextView;
+
+import cn.pedant.SweetAlert.SweetAlertDialog;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -85,13 +87,24 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(camera);
             }
         });
-
     }
 
     @Override
-    protected void onPostCreate(Bundle savedInstanceState) {
-        super.onPostCreate(savedInstanceState);
+    public void onBackPressed() {
 
+        new SweetAlertDialog(this, SweetAlertDialog.WARNING_TYPE)
+                .setTitleText("Sair")
+                .setContentText("Certeza que quer sair?")
+                .setCancelText("Não")
+                .setConfirmText("Sim")
+                .showCancelButton(true)
+                .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
+                    @Override
+                    public void onClick(SweetAlertDialog sDialog) {
+                        HomeActivity.this.finish();
+                    }
+                })
+                .show();
     }
 
     @Override

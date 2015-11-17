@@ -1,6 +1,7 @@
 package com.wesbalbinolive.julietapp;
 
 import android.content.Intent;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -15,8 +16,8 @@ public class LoginActivity extends AppCompatActivity {
     private TextView btnCadastro;
     private EditText edtUsuarioLogin, edtUsuarioSenha;
     private Button btnEntrar;
-    private String usuarioDigitado, senhaDigitada;
-    private SessionProduto data;
+    private String loginUsuario, senhaUsuario, loginDigitado, senhaDigitada;
+    private SessionUsuario sessionUsuario;
 
 
     @Override
@@ -32,22 +33,30 @@ public class LoginActivity extends AppCompatActivity {
         btnEntrar = (Button) findViewById(R.id.btnEntrar);
         btnCadastro = (TextView) findViewById(R.id.btnCadastro);
 
-
         btnEntrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                data = SessionProduto.getInstance();
-                usuarioDigitado = edtUsuarioLogin.getText().toString();
+                sessionUsuario = SessionUsuario.getInstance();
+                loginDigitado = edtUsuarioLogin.getText().toString();
                 senhaDigitada = edtUsuarioSenha.getText().toString();
-                data.setLogin(usuarioDigitado);
-                data.setSenha(senhaDigitada);
-                data.setUsuarioLogado(true);
-                Intent checkout = new Intent(LoginActivity.this, CheckoutActivity.class);
-                startActivity(checkout);
-                finish();
+                loginUsuario = sessionUsuario.getLogin();
+                senhaUsuario = sessionUsuario.getSenha();
+
+                if (loginDigitado.equals(loginUsuario) && senhaDigitada.equals(senhaUsuario)){
+                    sessionUsuario.setUsuarioLogado(true);
+                    Intent checkout = new Intent(LoginActivity.this, CheckoutActivity.class);
+                    startActivity(checkout);
+                    finish();
+                } else {
+                    if (loginDigitado.matches(loginUsuario)) {
+                        Snackbar.make(view, "Senha Inválida!", Snackbar.LENGTH_LONG).show();
+                    } else {
+                        Snackbar.make(view, "Usuário Inválido!", Snackbar.LENGTH_LONG).show();
+                    }
+                }
+
             }
         });
-
 
         btnCadastro.setOnClickListener(new View.OnClickListener() {
             @Override

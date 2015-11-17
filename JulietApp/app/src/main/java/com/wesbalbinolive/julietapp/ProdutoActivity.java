@@ -1,7 +1,6 @@
 package com.wesbalbinolive.julietapp;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -10,14 +9,22 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import cn.pedant.SweetAlert.SweetAlertDialog;
 
 public class ProdutoActivity extends AppCompatActivity {
 
 
     private Button btnAddCarrinho;
     private FloatingActionButton btnCarrinho;
-    private int qtdProduto;
-    private SessionProduto data;
+    private int qtdProduto, idProduto;
+    private TextView txtProduto, txtPrecoProduto;
+    private String nomeProduto;
+    private int precoProduto;
+    private ItemCart itemCart;
+    private SessionCarrinho sessionCarrinho;
 
 
     @Override
@@ -30,20 +37,29 @@ public class ProdutoActivity extends AppCompatActivity {
 
         btnAddCarrinho = (Button) findViewById(R.id.btnAddCarrinho);
         btnCarrinho = (FloatingActionButton) findViewById(R.id.btnCarrinho);
-        data = SessionProduto.getInstance();
+        txtProduto = (TextView) findViewById(R.id.txtProduto);
+        txtPrecoProduto = (TextView) findViewById(R.id.txtPrecoProduto);
+
+        nomeProduto = txtProduto.getText().toString();
+        precoProduto = Integer.parseInt(txtPrecoProduto.getText().toString());
+
+        sessionCarrinho = SessionCarrinho.getInstance();
+        itemCart = new ItemCart(1, nomeProduto, 1, precoProduto);
 
         btnAddCarrinho.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                qtdProduto = data.getQuantidade();
-                qtdProduto++;
-                data.setQuantidade(qtdProduto);
+                qtdProduto = itemCart.getQuantidade();
+                idProduto = itemCart.getIdProduto();
+                sessionCarrinho.AddItemCarrinho(new ItemCart(idProduto, nomeProduto, qtdProduto, precoProduto));
 
-                if (qtdProduto > 1){
-                    Snackbar.make(view, qtdProduto + " produtos adicionados ao carrinho", Snackbar.LENGTH_LONG).show();
-                }else{
-                    Snackbar.make(view, qtdProduto + " produto adicionado ao carrinho", Snackbar.LENGTH_LONG).show();
-                }
+                new SweetAlertDialog(ProdutoActivity.this, SweetAlertDialog.SUCCESS_TYPE)
+                        .setTitleText("Oba!")
+                        .setContentText("Produto já está no carrinho :)")
+                        .showCancelButton(false)
+                        .setConfirmText("Ok")
+                        .setConfirmClickListener(null)
+                        .show();
 
             }
         });

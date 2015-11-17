@@ -12,7 +12,7 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="327dp"
+        android:layout_height="453dp"
         android:background="#fff"
         android:weightSum="1"
         android:paddingBottom="6dp">
@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:background="#2196f3">
+            android:background="#455A64">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -39,7 +39,7 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="fill_parent">
 
 
             <LinearLayout
@@ -55,28 +55,41 @@
 
     </LinearLayout>
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/btnFinalizarCompra"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="end|bottom"
-        app:elevation="4dp"
-        app:pressedTranslationZ="8dp"
-        app:borderWidth="0dp"
-        app:fabSize="normal"
-        android:src="@drawable/ic_cifrao"
-        app:backgroundTint="#ff1c21"/>
+        android:layout_weight="0.8"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/btnContinuarCompra"
-        android:id="@+id/btnContinuarCompra"
-        android:layout_gravity="left|bottom"
-        android:layout_marginLeft="20dp"
-        android:textColor="#2196f3"
-        android:layout_marginBottom="20dp"
-        android:textSize="18sp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/btnContinuarCompra"
+            android:id="@+id/btnContinuarCompra"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:textColor="#2196f3"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:layout_weight="1" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnFinalizarCompra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:elevation="4dp"
+            app:pressedTranslationZ="8dp"
+            app:borderWidth="0dp"
+            app:fabSize="normal"
+            android:src="@drawable/ic_cifrao"
+            app:backgroundTint="#ff1c21"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.2"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
 
 </FrameLayout>

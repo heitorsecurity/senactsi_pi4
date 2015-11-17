@@ -35,7 +35,7 @@ public class TermosActivity extends AppCompatActivity {
                 public void onClick(View view) {
                     if (checkBox.isChecked()) {
 
-                        btnAceito.setBackgroundColor(Color.parseColor("#2196f3"));
+                        btnAceito.setBackgroundColor(Color.parseColor("#455A64"));
                     } else{
 
                         btnAceito.setBackgroundColor(Color.parseColor("#9c9c9c"));

@@ -10,7 +10,7 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="fill_parent"
         android:background="#fff"
         android:weightSum="1">
 
@@ -150,8 +150,10 @@
                         android:text="@string/btnEfetuarPagamento"
                         android:id="@+id/btnEfetuarPagmento"
                         android:layout_gravity="center_horizontal"
-                        android:background="#2196f3"
-                        android:textColor="#fff" />
+                        android:drawableRight="@drawable/ic_carrinho"
+                        android:background="#455A64"
+                        android:textColor="#fff"
+                        android:paddingRight="10dp" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>

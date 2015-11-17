@@ -80,7 +80,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Por: 399,99"
+                        android:text="399"
                         android:id="@+id/txtPrecoProduto"
                         android:paddingLeft="10dp"
                         android:textSize="12sp" />
@@ -91,9 +91,11 @@
                     android:layout_height="38dp"
                     android:text="@string/btnAddAoCarrinho"
                     android:id="@+id/btnAddCarrinho"
-                    android:background="#2196f3"
+                    android:background="#455A64"
                     android:textColor="#fff"
-                    android:layout_weight="0.61" />
+                    android:layout_weight="0.42"
+                    android:drawableRight="@drawable/ic_carrinho"
+                    android:paddingRight="10dp" />
 
             </LinearLayout>
 

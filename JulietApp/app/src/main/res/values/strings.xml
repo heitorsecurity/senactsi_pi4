@@ -41,6 +41,7 @@
     <string name="txtMsgCategorias">Categorias de Calçados</string>
     <string name="txtMsgCategoriaChinelo">Chinelos</string>
     <string name="txtMsgEndereco">Dados de Endereço</string>
+    <string name="txtMsgHome">Juliet Calçados</string>
     <string name="txtMsgLogin">Entre com seus dados</string>
     <string name="txtMsgTermos">Termos e Condições</string>
     <string name="txtMsgCarrinho">Carrinho de Compras</string>
@@ -50,5 +51,5 @@
     <string name="txtMsgCategoriaInfantil">Linha Infantil</string>
     <string name="txtMsgCategoriaSalto">Salto Alto</string>
     <string name="txtMsgCompraFinalizada">Compra finalizada :)</string>
-
+    <string name="txtMsgBemVindo">Bem vindo :)</string>
 </resources>

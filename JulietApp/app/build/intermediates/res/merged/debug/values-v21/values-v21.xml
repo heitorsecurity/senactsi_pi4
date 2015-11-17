@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/Backup/JulietApp/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values-v21/values-v21.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values-v21/values-v21.xml -->
     <eat-comment/>
     <dimen name="design_navigation_padding_top_default">24dp</dimen>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/Backup/JulietApp/app/src/main/res/values-v21/dimens.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/src/main/res/values-v21/dimens.xml -->
     <eat-comment/>
     <dimen name="fab">16dp</dimen>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/Backup/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-v21/values-v21.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-v21/values-v21.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance.Material"/>
     <style name="Base.TextAppearance.AppCompat.Body1" parent="android:TextAppearance.Material.Body1"/>
@@ -222,6 +222,52 @@
     <style name="Base.Widget.AppCompat.TextView.SpinnerItem" parent="android:Widget.Material.TextView.SpinnerItem"/>
     <style name="Base.Widget.AppCompat.Toolbar.Button.Navigation" parent="android:Widget.Material.Toolbar.Button.Navigation">
     </style>
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.7/res/values-v21/values-v21.xml -->
+    <eat-comment/>
+    <style name="MaterialTheme.ActionBar" parent="MaterialTheme">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+    </style>
+    <style name="MaterialTheme.ActionBar.TranslucentStatus" parent="MaterialTheme.ActionBar">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="MaterialTheme.Light.ActionBar" parent="MaterialTheme.Light">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+    </style>
+    <style name="MaterialTheme.Light.ActionBar.DarkToolbar.TranslucentStatus" parent="MaterialTheme.Light.DarkToolbar.ActionBar">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="MaterialTheme.Light.ActionBar.TranslucentStatus" parent="MaterialTheme.Light.ActionBar">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="MaterialTheme.Light.DarkToolbar.ActionBar" parent="MaterialTheme.Light.DarkToolbar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+    </style>
+    <style name="MaterialTheme.Light.DarkToolbar.TranslucentStatus" parent="MaterialTheme.Light.DarkToolbar">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="MaterialTheme.Light.TranslucentStatus" parent="MaterialTheme.Light">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="MaterialTheme.TranslucentStatus" parent="MaterialTheme">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-v21/values-v21.xml -->
+    <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme.Material">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
@@ -248,7 +294,7 @@
     </style>
     <style name="Platform.ThemeOverlay.AppCompat.Dark"/>
     <style name="Platform.ThemeOverlay.AppCompat.Light"/>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/Backup/JulietApp/app/src/main/res/values-v21/styles.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/src/main/res/values-v21/styles.xml -->
     <eat-comment/>
     <style name="appCam" parent="Theme.AppCompat">
         <item name="android:colorPrimary">@android:color/transparent</item>

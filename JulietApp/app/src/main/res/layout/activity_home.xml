@@ -12,6 +12,24 @@
         android:layout_height="match_parent"
         android:id="@+id/drawer">
 
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/container">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/btnCam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                app:elevation="4dp"
+                app:pressedTranslationZ="8dp"
+                app:borderWidth="0dp"
+                app:fabSize="normal"
+                android:src="@drawable/ic_camera"
+                app:backgroundTint="#ff1c21" />
+        </FrameLayout>
+
 
         <android.support.design.widget.NavigationView
             android:id="@+id/nav_view"
@@ -25,16 +43,9 @@
 
     </android.support.v4.widget.DrawerLayout>
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/btnCam"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="end|bottom"
-        app:elevation="4dp"
-        app:pressedTranslationZ="8dp"
-        app:borderWidth="0dp"
-        app:fabSize="normal"
-        android:src="@drawable/ic_camera"
-        app:backgroundTint="#ff1c21" />
+
+
 
 </FrameLayout>
+
+
