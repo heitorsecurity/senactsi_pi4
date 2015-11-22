@@ -1,0 +1,34 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.wesbalbinolive.julietapp.SplashScreen">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#000"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/splash_logo"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo_black"
+            android:layout_marginTop="100dp" />
+
+        <ProgressBar
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/pg_splash"
+            android:layout_gravity="center_horizontal"
+            android:max="100"
+            android:indeterminate="true"
+            android:layout_marginTop="130dp"
+            style="?android:attr/progressBarStyleSmall" />
+
+    </LinearLayout>
+</LinearLayout>

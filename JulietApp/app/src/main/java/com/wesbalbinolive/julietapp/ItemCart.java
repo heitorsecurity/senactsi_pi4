@@ -33,7 +33,7 @@ public class ItemCart {
         this.valor = valor;
     }
 
-    public ItemCart(int idProduto,String Nome,int quantidade,int valor) {
+    public ItemCart(int idProduto,String Nome,int quantidade, double valor) {
         this.Nome = Nome;
         this.IdProduto = idProduto;
         this.quantidade = quantidade;

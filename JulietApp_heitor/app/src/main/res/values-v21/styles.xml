@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <style name="appCam" parent="Theme.AppCompat">
-        <item name="android:colorPrimary">@android:color/transparent</item>
-        <item name="android:background">@android:color/transparent</item>
-        <item name="android:backgroundStacked">@android:color/transparent</item>
-    </style>
-</resources>

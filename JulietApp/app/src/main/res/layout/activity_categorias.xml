@@ -1,202 +1,44 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.wesbalbinolive.julietapp.CategoriasActivity"
-    android:background="#ddd">
+    android:background="#ddd"
+    tools:context="com.wesbalbinolive.julietapp.CategoriasActivity">
 
     <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:background="#ddd"
+        android:orientation="vertical"
         android:weightSum="1">
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar">
+        </include>
 
         <LinearLayout
             android:orientation="vertical"
-            android:layout_width="match_parent"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:background="#455A64">
+            android:background="#37474F">
 
             <TextView
+                android:id="@+id/textView7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="@string/txtMsgCategorias"
-                android:id="@+id/txtMsgCategorias"
-                android:layout_gravity="bottom|center_horizontal"
-                android:textSize="25sp"
+                android:layout_gravity="center_horizontal"
                 android:layout_marginTop="20dp"
+                android:text="@string/txtMsgCategorias"
+                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="#fff" />
         </LinearLayout>
 
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_horizontal"
-            android:weightSum="1"
-            android:padding="16dp">
+        <ListView
+            android:id="@+id/listCategorias"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#fff" />
 
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="44dp"
-                android:layout_gravity="center_horizontal"
-                android:background="#fff"
-                android:layout_marginBottom="10dp"
-                android:weightSum="1"
-                android:id="@+id/btnCategoriaChinelos">
-
-                <ImageView
-                    android:layout_width="45dp"
-                    android:layout_height="match_parent"
-                    android:id="@+id/imageView2"
-                    android:src="@drawable/chinelos"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="2dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="@string/txtMsgCategoriaChinelo"
-                    android:id="@+id/txtMsgCategoriaChinelo"
-                    android:layout_gravity="bottom|center_horizontal"
-                    android:layout_marginLeft="40dp"
-                    android:layout_marginBottom="3dp"
-                    android:textColor="#696969"
-                    android:textSize="18sp"
-                    android:textIsSelectable="false" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="44dp"
-                android:layout_gravity="center_horizontal"
-                android:background="#fff"
-                android:layout_marginBottom="10dp"
-                android:weightSum="1"
-                android:id="@+id/btnCategoriaEsportivos">
-
-                <ImageView
-                    android:layout_width="45dp"
-                    android:layout_height="match_parent"
-                    android:id="@+id/imageView3"
-                    android:src="@drawable/esportivos"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="2dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="@string/txtMsgCategoriaEsportivos"
-                    android:id="@+id/txtMsgCategoriaEsportivos"
-                    android:layout_gravity="bottom|center_horizontal"
-                    android:layout_marginLeft="40dp"
-                    android:layout_marginBottom="3dp"
-                    android:textColor="#696969"
-                    android:textSize="18sp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="44dp"
-                android:layout_gravity="center_horizontal"
-                android:background="#fff"
-                android:layout_marginBottom="10dp"
-                android:weightSum="1"
-                android:id="@+id/btnCategoriaCasuais">
-
-                <ImageView
-                    android:layout_width="45dp"
-                    android:layout_height="match_parent"
-                    android:id="@+id/imageView4"
-                    android:src="@drawable/casuais"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="2dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="@string/txtMsgCategoriaCasuais"
-                    android:id="@+id/txtMsgCategoriaCasuais"
-                    android:layout_gravity="bottom|center_horizontal"
-                    android:layout_marginLeft="40dp"
-                    android:layout_marginBottom="3dp"
-                    android:textColor="#696969"
-                    android:textSize="18sp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="44dp"
-                android:layout_gravity="center_horizontal"
-                android:background="#fff"
-                android:layout_marginBottom="10dp"
-                android:weightSum="1"
-                android:id="@+id/btnCategoriaInfantil">
-
-                <ImageView
-                    android:layout_width="45dp"
-                    android:layout_height="match_parent"
-                    android:id="@+id/imageView5"
-                    android:src="@drawable/infantil"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="2dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="@string/txtMsgCategoriaInfantil"
-                    android:id="@+id/txtMsgCategoriaInfantil"
-                    android:layout_gravity="bottom|center_horizontal"
-                    android:layout_marginLeft="40dp"
-                    android:layout_marginBottom="3dp"
-                    android:textColor="#696969"
-                    android:textSize="18sp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="44dp"
-                android:layout_gravity="center_horizontal"
-                android:background="#fff"
-                android:layout_marginBottom="10dp"
-                android:weightSum="1"
-                android:id="@+id/btnCategoriaSalto">
-
-                <ImageView
-                    android:layout_width="45dp"
-                    android:layout_height="match_parent"
-                    android:id="@+id/imageView6"
-                    android:src="@drawable/salto_alto"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="2dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="@string/txtMsgCategoriaSalto"
-                    android:id="@+id/txtMsgCategoriaSalto"
-                    android:layout_gravity="bottom|center_horizontal"
-                    android:layout_marginLeft="40dp"
-                    android:layout_marginBottom="3dp"
-                    android:textColor="#696969"
-                    android:textSize="18sp" />
-            </LinearLayout>
-
-        </LinearLayout>
     </LinearLayout>
 </LinearLayout>

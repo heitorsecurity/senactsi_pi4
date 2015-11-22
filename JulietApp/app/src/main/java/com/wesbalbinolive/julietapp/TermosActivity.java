@@ -11,6 +11,8 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
+import cn.pedant.SweetAlert.SweetAlertDialog;
+
 public class TermosActivity extends AppCompatActivity {
 
     public TextView btnSair;
@@ -35,7 +37,7 @@ public class TermosActivity extends AppCompatActivity {
                 public void onClick(View view) {
                     if (checkBox.isChecked()) {
 
-                        btnAceito.setBackgroundColor(Color.parseColor("#455A64"));
+                        btnAceito.setBackgroundColor(Color.parseColor("#37474F"));
                     } else{
 
                         btnAceito.setBackgroundColor(Color.parseColor("#9c9c9c"));
@@ -47,20 +49,21 @@ public class TermosActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
                     if (checkBox.isChecked()) {
-                        btnAceito.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                SharedPreferences.Editor prefEditor = prefs.edit();
-                                prefEditor.putBoolean("termosConfig", false);
-                                prefEditor.apply();
+                        SharedPreferences.Editor prefEditor = prefs.edit();
+                        prefEditor.putBoolean("termosConfig", false);
+                        prefEditor.apply();
 
-                                Intent home = new Intent(TermosActivity.this, HomeActivity.class);
-                                startActivity(home);
-                                finish();
-                            }
-                        });
+                        Intent home = new Intent(TermosActivity.this, HomeActivity.class);
+                        startActivity(home);
+                        finish();
                     } else {
-                        Snackbar.make(view, "Aceite os termos para avançar", Snackbar.LENGTH_LONG).show();
+                        new SweetAlertDialog(TermosActivity.this, SweetAlertDialog.WARNING_TYPE)
+                                .setTitleText("Ops")
+                                .setContentText("Aceite os termos para avançar")
+                                .showCancelButton(false)
+                                .setConfirmText("Ok")
+                                .setConfirmClickListener(null)
+                                .show();
                     }
                 }
             });

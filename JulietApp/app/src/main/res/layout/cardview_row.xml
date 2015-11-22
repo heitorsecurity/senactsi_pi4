@@ -1,119 +1,130 @@
-
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="horizontal"
     android:paddingLeft="10dp"
-    android:background="#fff">
+    android:weightSum="1">
 
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="18dp"
-        android:layout_height="18dp"
-        android:text="X"
-        android:id="@+id/RemoveItem"
-        android:layout_marginTop="20dp"
-        android:background="#ff1c21"
-        android:textColor="#fff"
-        android:layout_marginRight="10dp" />
-
-    <ImageView
-        android:id="@+id/imgProdutoCarrinho"
-        android:layout_width="89dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="5dp"
-
-        android:src="@drawable/produto" />
-
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingLeft="10dp"
-        android:orientation="vertical"
-        android:weightSum="1">
-
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="85dp"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/nomeView"
-            android:layout_width="235dp"
-            android:layout_height="wrap_content"
-            android:textSize="16dp"
-            android:layout_marginTop="5dp"
-            android:layout_row="0"
-            android:layout_column="1"
-            android:inputType="text"
-            android:text="Nome" />
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:weightSum="1">
-
-            <TextView
-                android:id="@+id/valorView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="15dp"
-                android:layout_marginTop="5dp"
-                android:text="Valor:"
-                android:layout_row="0"
-                android:layout_column="1"
-                android:layout_marginRight="10dp" />
-
-            <TextView
-                android:id="@+id/precoView"
-                android:layout_width="52dp"
-                android:layout_height="wrap_content"
-                android:textSize="15dp"
-                android:layout_marginTop="5dp"
-                android:text="Preco"
-                android:layout_row="0"
-                android:layout_column="1"
-                android:layout_weight="0.71" />
-        </LinearLayout>
-
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/btnRemoveProduto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="4dp"
+            android:text="X"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
+        <LinearLayout
+            android:layout_width="92dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/produto"
+            android:orientation="horizontal" />
 
-            <Button
-                style="?android:attr/buttonStyleSmall"
-                android:layout_width="18dp"
-                android:layout_height="18dp"
-                android:padding="0dp"
-                android:text="-"
-                android:id="@+id/subtrai"
-                android:background="#455A64"
-                android:textColor="#fff" />
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/qtdProdutoView"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="15dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:text="0"
-                android:layout_row="0"
-                android:layout_column="1"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp" />
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
 
+                <TextView
+                    android:id="@+id/nomeView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nome"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
 
-            <Button
-                style="?android:attr/buttonStyleSmall"
-                android:layout_width="18dp"
-                android:layout_height="18dp"
-                android:padding="0dp"
-                android:text="+"
-                android:id="@+id/soma"
-                android:background="#455A64"
-                android:textColor="#fff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/valorView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R$"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/precoView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal">
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/subtrai"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_marginTop="1dp"
+                        android:background="#37474F"
+                        android:padding="0dp"
+                        android:text="-"
+                        android:textColor="#fff" />
+
+                    <TextView
+                        android:id="@+id/qtdProdutoView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_marginTop="1dp"
+                        android:layout_row="0"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="0"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:id="@+id/soma"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_marginTop="1dp"
+                        android:background="#37474F"
+                        android:padding="0dp"
+                        android:text="+"
+                        android:textColor="#fff" />
+                </LinearLayout>
+            </LinearLayout>
 
         </LinearLayout>
 

@@ -1,19 +1,22 @@
 package com.wesbalbinolive.julietapp;
 
 import android.content.Intent;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import cn.pedant.SweetAlert.SweetAlertDialog;
+
 public class CadastroActivity extends AppCompatActivity {
 
-    private EditText edtNomeCadastro, edtEmailCadastro, edtSenhaCadastro;
+    private EditText edtNomeCadastro, edtConfirmaSenhaCadastro, edtSenhaCadastro;
     private Button btnCadastrar;
+    private Toolbar mToolbar;
     private SessionUsuario sessionUsuario;
     private String nomeDigitado, senhaDigitada, emailDigitado;
 
@@ -22,11 +25,13 @@ public class CadastroActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadastro);
 
+
+        mToolbar = (Toolbar) findViewById(R.id.app_bar);
+        setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeButtonEnabled(true);
 
         edtNomeCadastro = (EditText) findViewById(R.id.edtNomeCadastro);
-        edtEmailCadastro = (EditText) findViewById(R.id.edtEmailCadastro);
+        edtConfirmaSenhaCadastro = (EditText) findViewById(R.id.edtConfirmaSenhaCadastro);
         edtSenhaCadastro = (EditText) findViewById(R.id.edtSenhaCadastro);
         btnCadastrar = (Button) findViewById(R.id.btnCadastrar);
 
@@ -37,15 +42,33 @@ public class CadastroActivity extends AppCompatActivity {
                 nomeDigitado = edtNomeCadastro.getText().toString();
                 senhaDigitada = edtSenhaCadastro.getText().toString();
 
-                if ((nomeDigitado.length() >= 6) && (nomeDigitado.length() <= 20)){
+                if ((nomeDigitado.length()< 3) || (nomeDigitado.length() > 20)){
+                    new SweetAlertDialog(CadastroActivity.this, SweetAlertDialog.ERROR_TYPE)
+                            .setTitleText("Opa!")
+                            .setContentText("Usuário entre 6 e 20 caracteres")
+                            .showCancelButton(false)
+                            .setConfirmText("Ok")
+                            .setConfirmClickListener(null)
+                            .show();
+                } else{
                     sessionUsuario.setLogin(nomeDigitado);
-                    if ((senhaDigitada.length() >= 6) && (senhaDigitada.length() <= 20 )){
-                        sessionUsuario.setSenha(senhaDigitada);
-                        finish();
-                    }
-                } else {
-                    Snackbar.make(view, "Entre com no mínimo de 6 dígitos.", Snackbar.LENGTH_LONG).show();
                 }
+
+                if ((senhaDigitada.length() < 6) || (senhaDigitada.length() > 20 )){
+                    new SweetAlertDialog(CadastroActivity.this, SweetAlertDialog.ERROR_TYPE)
+                            .setTitleText("Vish")
+                            .setContentText("Senha entre 6 e 20 caracteres")
+                            .showCancelButton(false)
+                            .setConfirmText("Ok")
+                            .setConfirmClickListener(null)
+                            .show();
+                } else{
+                    sessionUsuario.setSenha(senhaDigitada);
+                    Intent endereco = new Intent(CadastroActivity.this, EnderecoActivity.class);
+                    startActivity(endereco);
+                    finish();
+                }
+
             }
         });
 

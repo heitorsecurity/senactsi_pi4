@@ -4,22 +4,32 @@ import android.content.Intent;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 
+import cn.pedant.SweetAlert.SweetAlertDialog;
+
 public class CheckoutActivity extends AppCompatActivity {
 
     private EditText edtNrCartao, edtValidadeCartao, edtQtdParcelas;
     private RadioButton rdbCartao, rdbBoleto;
     private Button btnEfetuarPagamento;
+    private Toolbar mToolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_checkout);
+
+        mToolbar = (Toolbar) findViewById(R.id.app_bar);
+        setSupportActionBar(mToolbar);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         rdbCartao = (RadioButton) findViewById(R.id.rdbCartao);
         rdbBoleto = (RadioButton) findViewById(R.id.rdbBoleto);
@@ -63,12 +73,35 @@ public class CheckoutActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if (rdbCartao.isChecked()) {
                     if (edtNrCartao.getText().toString().length() < 11 || edtNrCartao.getText().toString() == ""){
-                        Snackbar.make(view, "Número do cartão inválido", Snackbar.LENGTH_LONG).show();
+
+                        new SweetAlertDialog(CheckoutActivity.this, SweetAlertDialog.ERROR_TYPE)
+                                .setTitleText("Ops")
+                                .setContentText("Número do cartão inválido")
+                                .showCancelButton(false)
+                                .setConfirmText("Ok")
+                                .setConfirmClickListener(null)
+                                .show();
+
                     } else if (edtValidadeCartao.getText().toString().length() < 10 || edtValidadeCartao.getText().toString() == ""){
-                        Snackbar.make(view, "Validade incorreta", Snackbar.LENGTH_LONG).show();
+
+                        new SweetAlertDialog(CheckoutActivity.this, SweetAlertDialog.ERROR_TYPE)
+                                .setTitleText("Ops")
+                                .setContentText("Validade incorreta")
+                                .showCancelButton(false)
+                                .setConfirmText("Ok")
+                                .setConfirmClickListener(null)
+                                .show();
+
 
                     } else if (edtQtdParcelas.getText().toString().length() < 2 || edtQtdParcelas.getText().toString() == ""){
-                        Snackbar.make(view, "Valor inválido", Snackbar.LENGTH_LONG).show();
+
+                        new SweetAlertDialog(CheckoutActivity.this, SweetAlertDialog.ERROR_TYPE)
+                                .setTitleText("Ops")
+                                .setContentText("Máximo de 20 parcelas")
+                                .showCancelButton(false)
+                                .setConfirmText("Ok")
+                                .setConfirmClickListener(null)
+                                .show();
                     } else{
                         Intent finalizado = new Intent(CheckoutActivity.this, FinalizadaActivity.class);
                         startActivity(finalizado);
@@ -81,5 +114,18 @@ public class CheckoutActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        int id = item.getItemId();
+
+        switch (id){
+            case android.R.id.home:
+                this.finish();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

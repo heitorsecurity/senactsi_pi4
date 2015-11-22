@@ -1,104 +1,116 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".TermosActivity"
-    android:background="#dddddd">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#ddd"
+    tools:context=".TermosActivity">
+
+
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="fill_parent">
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
+            android:orientation="vertical"
             android:weightSum="1">
 
             <TextView
+                android:id="@+id/txtMsgTermos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="@string/txtMsgTermos"
-                android:id="@+id/txtMsgTermos"
-                android:textColor="#000000"
-                android:paddingTop="15sp"
                 android:paddingLeft="15sp"
+                android:paddingTop="15sp"
+                android:text="@string/txtMsgTermos"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000"
                 android:textSize="16sp" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat voluptat.  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat voluptat."
                 android:id="@+id/textView2"
-                android:textColor="#696969"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:padding="10sp"
+                android:text="Nossos serviços, exigem um cadastro único para cada usuário de nossa loja, com esse cadastro permitimos acesso a todas as plataformas da Juliet Calçados (Mobile e Web). Ao se cadastrar serão coletadas as informações de nome, e-mail, senha, endereço, CPF. Todas as informações são obrigatórias para que seu cadastro seja concluído."
+                android:textColor="#696969"
                 android:textSize="10sp" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat voluptat."
                 android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:textColor="#696969"
                 android:padding="10sp"
+                android:text="A atualização e fornecimento dos dados à Juliet Calçados no ato de cadastramento via aplicativo ou site é de total responsabilidade do cliente, eximindo a Juliet Calçados de qualquer erro de digitação."
+                android:textColor="#696969"
                 android:textSize="10sp" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat voluptat."
                 android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:textColor="#696969"
                 android:padding="10sp"
+                android:text="Visando uma melhoria em nosso modelo de negócio, a Juliet Calçados, reserva-se no direito de alterar quaisquer informações aqui descritas, mediante a publicação da versão atualizada de nosso aplicativo."
+                android:textColor="#696969"
                 android:textSize="10sp" />
 
             <TextView
+                android:id="@+id/textView5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat voluptat."
-                android:id="@+id/textView5"
                 android:layout_gravity="center_horizontal"
-                android:textColor="#696969"
+                android:layout_weight="0.18"
                 android:padding="10sp"
-                android:textSize="10sp"
-                android:layout_weight="0.18" />
+                android:text="Como parte de nosso compromisso com a segurança da informação, todas as nossas transações executadas via cartão ou boleto bancário, serão criptografadas com a tecnologia SSL (Secure Socket Layer), garantindo a proteção e a não divulgação de seus dados pessoais e financeiros a terceiros."
+                android:textColor="#696969"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.18"
+                android:padding="10sp"
+                android:text="Ao selecionar a opção abaixo e clicar no botão você aceita os termos descritos"
+                android:textColor="#696969"
+                android:textSize="10sp" />
 
             <CheckBox
+                android:id="@+id/checkBox"
                 android:layout_width="237dp"
                 android:layout_height="wrap_content"
-                android:text="@string/chkMsg"
-                android:id="@+id/checkBox"
+                android:layout_gravity="center_horizontal"
                 android:checked="false"
-                android:textColor="#000"
-                android:layout_gravity="center_horizontal" />
+                android:text="@string/chkMsg"
+                android:textColor="#000" />
 
             <Button
-                android:layout_width="253dp"
-                android:layout_height="36dp"
-                android:text="@string/btnAceito"
                 android:id="@+id/btnAceito"
+                android:layout_width="187dp"
+                android:layout_height="36dp"
                 android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="6dp"
                 android:background="#9c9c9c"
                 android:focusable="true"
-                android:layout_marginBottom="6dp"
+                android:text="@string/btnAceito"
                 android:textColor="#fff" />
 
             <TextView
+                android:id="@+id/btnSair"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/btnSair"
-                android:id="@+id/btnSair"
                 android:layout_gravity="center_horizontal"
-                android:textColor="#ff0000"
+                android:layout_marginTop="25dp"
                 android:layout_weight="0.11"
                 android:gravity="bottom"
-                android:textSize="15sp"
-                android:layout_marginTop="25dp" />
+                android:text="@string/btnSair"
+                android:textColor="#ff0000"
+                android:textSize="15sp" />
 
         </LinearLayout>
 

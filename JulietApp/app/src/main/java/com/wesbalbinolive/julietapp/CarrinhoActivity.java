@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -20,8 +21,9 @@ public class CarrinhoActivity extends AppCompatActivity {
 
     private ViewGroup container;
     private TextView btnContinuarCompra, nomeView, precoView;
-    private FloatingActionButton btnFinalizarCompra;
+    private TextView btnFinalizarCompra;
     private SessionUsuario sessionUsuario;
+    private Toolbar mToolbar;
     private Double valorProduto;
 
 
@@ -31,11 +33,12 @@ public class CarrinhoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_carrinho);
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeButtonEnabled(true);
+        mToolbar = (Toolbar) findViewById(R.id.app_bar);
+        setSupportActionBar(mToolbar);
 
-        btnContinuarCompra = (TextView) findViewById(R.id.btnContinuarCompra);
-        btnFinalizarCompra = (FloatingActionButton) findViewById(R.id.btnFinalizarCompra);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        btnFinalizarCompra = (TextView) findViewById(R.id.btnFinalizarCompra);
         sessionUsuario = SessionUsuario.getInstance();
 
 
@@ -63,19 +66,11 @@ public class CarrinhoActivity extends AppCompatActivity {
                 }
             }
         });
-
-        btnContinuarCompra.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent categorias = new Intent(CarrinhoActivity.this, CategoriasActivity.class);
-                startActivity(categorias);
-            }
-        });
     }
 
     private  void addItem(String titulo, final String valor,String qtd,final int IdProduto){
 
-
+        final double precoOriginal = 399.99;
 
         final LinearLayout linha = (LinearLayout) LayoutInflater.from(CarrinhoActivity.this).inflate(R.layout.cardview_row, container, false);
         nomeView = (TextView) linha.findViewById(R.id.nomeView);
@@ -88,7 +83,7 @@ public class CarrinhoActivity extends AppCompatActivity {
         precoView.setText(valor);
         qtdProdutoView.setText(qtd);
 
-        Button btnRemoveProduto = (Button) linha.findViewById( R.id.RemoveItem);
+        TextView btnRemoveProduto = (TextView) linha.findViewById( R.id.btnRemoveProduto);
         btnRemoveProduto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -107,7 +102,7 @@ public class CarrinhoActivity extends AppCompatActivity {
 
                                 sDialog
                                         .setTitleText("Pronto!")
-                                        .setContentText("Produto deletado do carrinho")
+                                        .setContentText("Produto removido do carrinho")
                                         .setConfirmText("Ok")
                                         .showCancelButton(false)
                                         .setConfirmClickListener(null)
@@ -131,7 +126,7 @@ public class CarrinhoActivity extends AppCompatActivity {
 
                 if(Integer.parseInt((String) qtdProdutoView.getText()) > 1) {
                     qtdProdutoView.setText(String.valueOf(Integer.parseInt((String) qtdProdutoView.getText()) - 1));
-                    precoView.setText(String.valueOf(Double.parseDouble((String) precoView.getText()) - valorProduto));
+                    precoView.setText(String.valueOf(Double.parseDouble((String) precoView.getText()) - Math.round(precoOriginal)));
                 }else{
                     container.removeView(linha);
                 }
@@ -144,11 +139,10 @@ public class CarrinhoActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 valorProduto = Double.valueOf(precoView.getText().toString());
-
                 SessionCarrinho sessionCarrinho = SessionCarrinho.getInstance();
                 sessionCarrinho.somaProduto(IdProduto, 1);
                 qtdProdutoView.setText(String.valueOf(Integer.parseInt((String) qtdProdutoView.getText()) + 1));
-                precoView.setText(String.valueOf(Double.parseDouble((String) precoView.getText()) + valorProduto));
+                precoView.setText(String.valueOf(Double.parseDouble((String) precoView.getText()) + Math.round(precoOriginal)));
 
             }
         });

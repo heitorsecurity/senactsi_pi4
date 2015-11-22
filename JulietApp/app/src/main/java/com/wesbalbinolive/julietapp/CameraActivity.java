@@ -5,6 +5,7 @@ import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
 import android.hardware.Camera;
@@ -22,6 +23,7 @@ public class CameraActivity extends AppCompatActivity{
     private Camera mCamera;
     private CameraPreview mPreview;
     private Handler autoFocusHandler;
+    private Toolbar mToolbar;
 
     ImageScanner scanner;
 
@@ -51,8 +53,10 @@ public class CameraActivity extends AppCompatActivity{
         FrameLayout preview = (FrameLayout)findViewById(R.id.cameraPreview);
         preview.addView(mPreview);
 
+        mToolbar = (Toolbar) findViewById(R.id.app_bar);
+        setSupportActionBar(mToolbar);
+
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeButtonEnabled(true);
 
     }
 

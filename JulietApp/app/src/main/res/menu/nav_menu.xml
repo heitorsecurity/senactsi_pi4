@@ -3,11 +3,24 @@
 
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/action_login"
+            android:title="Login"
+            android:checkable="false"
+            android:icon="@drawable/login">
+        </item>
+        <item
+            android:id="@+id/action_cadastro"
+            android:title="Cadastro"
+            android:checkable="false"
+            android:icon="@drawable/ic_cadastro">
+        </item>
+        <item
             android:id="@+id/action_categorias"
             android:title="Categorias"
             android:checkable="false"
             android:icon="@drawable/ic_categorias">
         </item>
+
         <item
             android:id="@+id/action_carrinho"
             android:title="Carrinho"
@@ -19,12 +32,6 @@
             android:title="Câmera"
             android:checkable="false"
             android:icon="@drawable/ic_camera">
-        </item>
-        <item
-            android:id="@+id/action_sobre"
-            android:title="Sobre"
-            android:checkable="false"
-            android:icon="@drawable/ic_sobre">
         </item>
         <item
             android:id="@+id/action_produto"

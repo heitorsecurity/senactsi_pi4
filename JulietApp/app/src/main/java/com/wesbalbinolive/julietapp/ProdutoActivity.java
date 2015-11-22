@@ -5,6 +5,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -22,8 +23,9 @@ public class ProdutoActivity extends AppCompatActivity {
     private int qtdProduto, idProduto;
     private TextView txtProduto, txtPrecoProduto;
     private String nomeProduto;
-    private int precoProduto;
+    private double precoProduto;
     private ItemCart itemCart;
+    private Toolbar mToolbar;
     private SessionCarrinho sessionCarrinho;
 
 
@@ -32,8 +34,9 @@ public class ProdutoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_produto);
 
+        mToolbar = (Toolbar) findViewById(R.id.app_bar);
+        setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeButtonEnabled(true);
 
         btnAddCarrinho = (Button) findViewById(R.id.btnAddCarrinho);
         btnCarrinho = (FloatingActionButton) findViewById(R.id.btnCarrinho);
@@ -41,7 +44,7 @@ public class ProdutoActivity extends AppCompatActivity {
         txtPrecoProduto = (TextView) findViewById(R.id.txtPrecoProduto);
 
         nomeProduto = txtProduto.getText().toString();
-        precoProduto = Integer.parseInt(txtPrecoProduto.getText().toString());
+        precoProduto = Double.parseDouble(txtPrecoProduto.getText().toString());
 
         sessionCarrinho = SessionCarrinho.getInstance();
         itemCart = new ItemCart(1, nomeProduto, 1, precoProduto);
@@ -55,11 +58,13 @@ public class ProdutoActivity extends AppCompatActivity {
 
                 new SweetAlertDialog(ProdutoActivity.this, SweetAlertDialog.SUCCESS_TYPE)
                         .setTitleText("Oba!")
-                        .setContentText("Produto já está no carrinho :)")
+                        .setContentText("Produto foi adicionado no carrinho :)")
                         .showCancelButton(false)
                         .setConfirmText("Ok")
                         .setConfirmClickListener(null)
                         .show();
+
+                itemCart.setValor(precoProduto);
 
             }
         });

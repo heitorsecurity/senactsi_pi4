@@ -4,12 +4,15 @@ import android.content.Intent;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import cn.pedant.SweetAlert.SweetAlertDialog;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -18,6 +21,7 @@ public class LoginActivity extends AppCompatActivity {
     private Button btnEntrar;
     private String loginUsuario, senhaUsuario, loginDigitado, senhaDigitada;
     private SessionUsuario sessionUsuario;
+    private Toolbar mToolbar;
 
 
     @Override
@@ -25,8 +29,9 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        mToolbar = (Toolbar) findViewById(R.id.app_bar);
+        setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeButtonEnabled(true);
 
         edtUsuarioLogin = (EditText) findViewById(R.id.edtUsuarioLogin);
         edtUsuarioSenha = (EditText) findViewById(R.id.edtSenhaLogin);
@@ -49,9 +54,22 @@ public class LoginActivity extends AppCompatActivity {
                     finish();
                 } else {
                     if (loginDigitado.matches(loginUsuario)) {
-                        Snackbar.make(view, "Senha Inválida!", Snackbar.LENGTH_LONG).show();
+                        new SweetAlertDialog(LoginActivity.this, SweetAlertDialog.ERROR_TYPE)
+                                .setTitleText("Opa!")
+                                .setContentText("Senha inválida!")
+                                .showCancelButton(false)
+                                .setConfirmText("Ok")
+                                .setConfirmClickListener(null)
+                                .show();
+
                     } else {
-                        Snackbar.make(view, "Usuário Inválido!", Snackbar.LENGTH_LONG).show();
+                        new SweetAlertDialog(LoginActivity.this, SweetAlertDialog.ERROR_TYPE)
+                                .setTitleText("Opa!")
+                                .setContentText("Usuário inválido!")
+                                .showCancelButton(false)
+                                .setConfirmText("Ok")
+                                .setConfirmClickListener(null)
+                                .show();
                     }
                 }
 
