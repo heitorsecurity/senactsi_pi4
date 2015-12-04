@@ -16,7 +16,7 @@
             android:layout_width="40dp"
             android:layout_height="60dp"
             android:id="@+id/imgCategorias"
-            android:src="@drawable/casuais"
+            android:src="@drawable/icon_categorias"
             android:layout_marginLeft="4dp" />
 
         <TextView

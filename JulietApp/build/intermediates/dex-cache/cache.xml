@@ -2,88 +2,67 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
-        <dex dex="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\pre-dexed\release\classes-ebc560b13728d0a8751e05948972c01c24ad2473.jar" />
-    </item>
-    <item
-        jar="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
-        <dex dex="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\pre-dexed\release\internal_impl-23.1.0-e166adc53591b8876c11cb45ea861bf98bbd6cc8.jar" />
-    </item>
-    <item
-        jar="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\exploded-aar\com.mikepenz\materialdrawer\4.4.6\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="45ca6b5a9ee48978df061377e655ade8def114ef">
-        <dex dex="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\pre-dexed\release\classes-78b406f05185b8beffcd2b40f08c0499318c6c39.jar" />
-    </item>
-    <item
-        jar="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\exploded-aar\com.mikepenz\iconics-core\2.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ed991557ee4c04c28a660493636a1f50347ccb03">
-        <dex dex="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\pre-dexed\release\classes-434fcdb8ac5877d08d676402c0eb08d053c869da.jar" />
-    </item>
-    <item
-        jar="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
-        <dex dex="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\pre-dexed\release\classes-a0acb6d6e65e35c8da33ff315a369194662f10d9.jar" />
-    </item>
-    <item
-        jar="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d96886efea7cc74fbb3abd0e3b51d5638fc57be0">
-        <dex dex="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\pre-dexed\release\classes-6b7ba4700af1d1be65dd65fefdc9fd0a00e533c3.jar" />
-    </item>
-    <item
-        jar="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\exploded-aar\com.mikepenz\materialize\0.2.7\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="fa4722c731f92df41532b4e21bbd6b015226cd23">
-        <dex dex="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\pre-dexed\release\classes-5713a0d6bd34a37438ee9fdae2aeb766c4935756.jar" />
-    </item>
-    <item
-        jar="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
-        <dex dex="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\pre-dexed\release\classes-6433a44b24194b5ab9af48a97e1635ffb276141e.jar" />
-    </item>
-    <item
         jar="C:\Users\Wesley\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="92e3fc113ec3ee36b64603a38857b95700025633">
-        <dex dex="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\pre-dexed\release\support-annotations-23.1.0-b784c6e3318a8f78547172643f75317755ddfb93.jar" />
+        <dex dex="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp - Package GPLAY\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-b784c6e3318a8f78547172643f75317755ddfb93.jar" />
     </item>
     <item
-        jar="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp\app\src\libs\zbar.jar"
+        jar="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp - Package GPLAY\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
-        <dex dex="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\pre-dexed\release\zbar-23c28a2b776a513ab3b8e8f6ed3c8b88c89c9da1.jar" />
+        sha1="d96886efea7cc74fbb3abd0e3b51d5638fc57be0">
+        <dex dex="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp - Package GPLAY\app\build\intermediates\pre-dexed\debug\classes-67be57e233a088774f1e9a4f5561cf9561de8576.jar" />
     </item>
     <item
-        jar="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jar="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp - Package GPLAY\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
-        <dex dex="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\pre-dexed\release\classes-4030c110eb2e959f8cbe39b04431ca04844afb17.jar" />
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp - Package GPLAY\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-09d5c639f26460f764ca393c6fb17b2b00ec092b.jar" />
     </item>
     <item
-        jar="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\exploded-aar\cn.pedant.sweetalert\library\1.1\jars\classes.jar"
+        jar="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp - Package GPLAY\app\build\intermediates\exploded-aar\cn.pedant.sweetalert\library\1.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="4ebe2626650bb5d8e3d4546a5107a85e9df8775b">
-        <dex dex="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp\app\build\intermediates\pre-dexed\release\classes-8f669e31fc9246a719973f942d6e75d1d14718bb.jar" />
+        <dex dex="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp - Package GPLAY\app\build\intermediates\pre-dexed\debug\classes-6373961f7fa17f8395c0eeac4b7f291dc8c504de.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp - Package GPLAY\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
+        <dex dex="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp - Package GPLAY\app\build\intermediates\pre-dexed\debug\classes-2631046ebf6787fb21b24c0fcab60a36ec262364.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp - Package GPLAY\app\src\libs\zbar.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp - Package GPLAY\app\build\intermediates\pre-dexed\debug\zbar-201ce2602e6f9ce0c1f7973669fb6432c0cb88f3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp - Package GPLAY\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp - Package GPLAY\app\build\intermediates\pre-dexed\debug\classes-b1d65f85cd53624236689612ccf7daf1a2df6e5d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp - Package GPLAY\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp - Package GPLAY\app\build\intermediates\pre-dexed\debug\classes-1448bb8704ffaa86b14795b2ade3149e6ef002a4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp - Package GPLAY\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="C:\Users\Wesley\Downloads\Senac\Projeto\JulietApp - Package GPLAY\app\build\intermediates\pre-dexed\debug\classes-99ce6298e1e9770c5a23073725a3079665a6160e.jar" />
     </item>
 
 </items>

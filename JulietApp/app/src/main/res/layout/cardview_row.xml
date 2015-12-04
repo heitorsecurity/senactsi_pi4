@@ -25,13 +25,13 @@
             android:layout_width="92dp"
             android:layout_height="70dp"
             android:layout_marginTop="3dp"
-            android:background="@drawable/produto"
+            android:background="@drawable/img_indis"
             android:orientation="horizontal" />
 
         <LinearLayout
-            android:layout_width="150dp"
+            android:layout_width="fill_parent"
             android:layout_height="match_parent"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="3dp"
             android:orientation="vertical">
 
             <LinearLayout
@@ -39,14 +39,16 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="4dp"
                 android:orientation="horizontal"
-                android:weightSum="1">
+                android:weightSum="1"
+                android:layout_marginTop="15dp">
 
                 <TextView
                     android:id="@+id/nomeView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Nome"
-                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="13sp" />
 
             </LinearLayout>
 
@@ -63,19 +65,6 @@
                     android:orientation="horizontal"
                     android:weightSum="1">
 
-                    <TextView
-                        android:id="@+id/valorView"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="R$"
-                        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-                    <TextView
-                        android:id="@+id/precoView"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="3dp"
-                        android:textAppearance="?android:attr/textAppearanceMedium" />
                 </LinearLayout>
             </LinearLayout>
 

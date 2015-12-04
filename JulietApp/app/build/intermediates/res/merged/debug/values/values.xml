@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -24,11 +24,11 @@
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/values/values.xml -->
     <eat-comment/>
     <color name="blue_btn_bg_color">#AEDEF4</color>
     <color name="blue_btn_bg_pressed_color">#96BFD2</color>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
@@ -38,19 +38,19 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/values/values.xml -->
     <eat-comment/>
     <color name="button_text_color">#FFFFFF</color>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="cardview_dark_background">#FF202020</color>
     <color name="cardview_light_background">#FFFAFAFA</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="colorAccent">#455A64</color>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>
     <color name="design_fab_shadow_mid_color">#14000000</color>
@@ -61,25 +61,25 @@
     <color name="design_fab_stroke_top_outer_color">#2EFFFFFF</color>
     <color name="design_snackbar_background_color">#323232</color>
     <color name="design_textinput_error_color">#FFDD2C00</color>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/values/values.xml -->
     <eat-comment/>
     <color name="error_stroke_color">#F27474</color>
     <color name="float_transparent">#66000000</color>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/values/values.xml -->
     <eat-comment/>
     <color name="gray_btn_bg_color">#D0D0D0</color>
     <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
@@ -97,11 +97,11 @@
     <color name="material_grey_800">#ff424242</color>
     <color name="material_grey_850">#ff303030</color>
     <color name="material_grey_900">#ff212121</color>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="primaryColor">#ffc107</color>
     <color name="primaryColorDark">#ff9800</color>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
@@ -111,11 +111,11 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/values/values.xml -->
     <eat-comment/>
     <color name="red_btn_bg_color">#DD6B55</color>
     <color name="red_btn_bg_pressed_color">#CD5B55</color>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
@@ -123,17 +123,17 @@
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/values/values.xml -->
     <eat-comment/>
     <color name="success_stroke_color">#A5DC86</color>
     <color name="sweet_dialog_bg_color">#FFFFFF</color>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/values/values.xml -->
     <eat-comment/>
     <color name="trans_success_stroke_color">#33A5DC86</color>
     <color name="warning_stroke_color">#F8BB86</color>
@@ -182,7 +182,7 @@
     <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/><attr format="reference" name="theme"/><attr name="android:theme"/></declare-styleable>
     <declare-styleable name="ViewBackgroundHelper"><attr name="android:background"/><attr format="color" name="backgroundTint"/><attr name="backgroundTintMode"><enum name="src_over" value="3"/><enum name="src_in" value="5"/><enum name="src_atop" value="9"/><enum name="multiply" value="14"/><enum name="screen" value="15"/></attr></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -251,16 +251,16 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="design_appbar_elevation">4dp</dimen>
     <dimen name="design_fab_border_width">0.5dp</dimen>
@@ -290,22 +290,22 @@
     <dimen name="design_tab_scrollable_min_width">72dp</dimen>
     <dimen name="design_tab_text_size">14sp</dimen>
     <dimen name="design_tab_text_size_2line">12sp</dimen>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="fab">0dp</dimen>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
@@ -316,28 +316,28 @@
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
     <item name="home" type="id"/>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
     <item name="split_action_bar" type="id"/>
     <item name="up" type="id"/>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <item name="view_offset_helper" type="id"/>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <integer name="abc_config_activityDefaultDur">220</integer>
     <integer name="abc_config_activityShortDur">150</integer>
     <integer name="abc_max_action_buttons">2</integer>
     <integer name="cancel_button_image_alpha">127</integer>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <integer name="design_snackbar_text_max_lines">2</integer>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="abc_action_bar_home_description">Navigate home</string>
@@ -359,22 +359,22 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="abrirMenu">Abrir menu</string>
     <string name="action_cadastro">Cadastro</string>
     <string name="action_login">Login</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
     <string name="action_sobre">Sobre</string>
     <string name="app_name">Juliet Calçados</string>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="btnAceito">Acessar a loja</string>
     <string name="btnAddAoCarrinho">Add ao carrinho</string>
-    <string name="btnCadastrar">Cadastrar</string>
+    <string name="btnCadastrar">Continuar</string>
     <string name="btnCadastro">Não sou cadastrado ainda</string>
     <string name="btnEfetuarPagamento">Efetuar pagamento</string>
     <string name="btnEntrar">Entrar</string>
@@ -382,43 +382,42 @@
     <string name="btnSair">Não concordo</string>
     <string name="btnSearch">Ir</string>
     <string name="btnVoltarCompras">Voltar as compras</string>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <string name="character_counter_pattern" translatable="false">%1$d/%2$d</string>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="chkMsg">Aceito os termos e condições</string>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/values/values.xml -->
     <eat-comment/>
     <string name="dialog_cancel">Cancel</string>
     <string name="dialog_default_title">Here\'s a message!</string>
     <string name="dialog_ok">OK</string>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="edtBairro">Bairro</string>
     <string name="edtCep">Cep</string>
-    <string name="edtCidade">Cidade</string>
     <string name="edtConfirmaSenhaCadastro">Confirmar Senha</string>
+    <string name="edtCpfCadastro">Cpf</string>
+    <string name="edtEmailCadastro">E-mail</string>
     <string name="edtLogradouro">Logradouro</string>
     <string name="edtNomeCadastro">Nome</string>
     <string name="edtNrCartao">Nº do Cartão</string>
+    <string name="edtNumero">Número</string>
     <string name="edtParcelas">Parcelas</string>
     <string name="edtQtd">qtd</string>
     <string name="edtSearch">Pesquisar</string>
     <string name="edtSenhaCadastro">Senha</string>
     <string name="edtSenhaLogin">Senha</string>
-    <string name="edtUsuarioLogin">Usuário</string>
+    <string name="edtUsuarioLogin">E-mail</string>
     <string name="edtValidadeCartao">Validade</string>
     <string name="fecharMenu">Fechar menu</string>
-    <string name="hello_world">Hello world!</string>
     <string name="rdbBoleto">Boleto</string>
     <string name="rdbCartao">Cartão de Crédito</string>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="title_activity_splash_screen">SplashScreen</string>
     <string name="txtMsgBemVindo">Bem vindo :)</string>
     <string name="txtMsgCadastro">Crie sua conta</string>
     <string name="txtMsgCarrinho">Carrinho de Compras</string>
@@ -438,20 +437,20 @@
     <string name="txtMsgLogin">Entre com seus dados</string>
     <string name="txtMsgSobre">Sobre Juliet Calçados</string>
     <string name="txtMsgTermos">Termos e Condições</string>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">#ffc107</item>
         <item name="colorPrimaryDark">#ff9800</item>
         <item name="colorAccent">#455A64</item>
     </style>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -1388,7 +1387,7 @@
         <item name="android:minWidth">56dp</item>
         <item name="android:scaleType">center</item>
     </style>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.Widget.Design.TabLayout" parent="android:Widget">
         <item name="tabMaxWidth">@dimen/design_tab_max_width</item>
@@ -1400,7 +1399,7 @@
         <item name="tabTextAppearance">@style/TextAppearance.Design.Tab</item>
         <item name="tabSelectedTextColor">?android:textColorPrimary</item>
     </style>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <style name="CardView">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
@@ -1416,7 +1415,7 @@
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
@@ -1618,7 +1617,7 @@
     </style>
     <style name="TextAppearance.AppCompat.Widget.Switch" parent="Base.TextAppearance.AppCompat.Widget.Switch"/>
     <style name="TextAppearance.AppCompat.Widget.TextView.SpinnerItem" parent="Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem"/>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <style name="TextAppearance.Design.CollapsingToolbar.Expanded" parent="TextAppearance.AppCompat.Display1">
         <item name="android:textColor">?android:attr/textColorPrimary</item>
@@ -1644,7 +1643,7 @@
         <item name="android:textColor">?android:textColorSecondary</item>
         <item name="textAllCaps">true</item>
     </style>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <style name="TextAppearance.StatusBar.EventContent" parent=""/>
     <style name="TextAppearance.StatusBar.EventContent.Info" parent=""/>
@@ -1777,7 +1776,7 @@
     <style name="Widget.AppCompat.TextView.SpinnerItem" parent="Base.Widget.AppCompat.TextView.SpinnerItem"/>
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation"/>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Widget.Design.AppBarLayout" parent="android:Widget">
         <item name="elevation">@dimen/design_appbar_elevation</item>
@@ -1828,7 +1827,7 @@
         <item name="counterTextAppearance">@style/TextAppearance.Design.Counter</item>
         <item name="counterOverflowTextAppearance">@style/TextAppearance.Design.Counter.Overflow</item>
     </style>
-    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/values/values.xml -->
     <eat-comment/>
     <style name="alert_dialog" parent="@android:Theme.Dialog">
         <item name="android:windowIsFloating">false</item>

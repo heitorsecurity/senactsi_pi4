@@ -22,7 +22,7 @@
             android:layout_height="228dp"
             android:layout_gravity="center_horizontal"
             android:contentDescription="logoFinalizado"
-            android:src="@drawable/logo" />
+            android:src="@drawable/logo2" />
 
         <TextView
             android:id="@+id/txtMsgCompraFinalizada"
@@ -41,6 +41,7 @@
             android:layout_gravity="center_horizontal"
             android:background="#37474F"
             android:text="@string/btnVoltarCompras"
-            android:textColor="#fff" />
+            android:textColor="#fff"
+            android:layout_marginTop="80dp" />
     </LinearLayout>
 </LinearLayout>

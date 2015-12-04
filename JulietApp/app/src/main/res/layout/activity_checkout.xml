@@ -62,24 +62,6 @@
                     android:textColor="#000"
                     android:textSize="18sp" />
 
-                <TextView
-                    android:id="@+id/txtMsgCheckout2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:text="@string/txtMsgChekout2"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="#000"
-                    android:textSize="13sp" />
-
-                <TextView
-                    android:id="@+id/txtMsgPrecoCheckout"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="800,00"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="#000"
-                    android:textSize="12sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -169,6 +151,7 @@
                         android:paddingRight="10dp"
                         android:text="@string/btnEfetuarPagamento"
                         android:textColor="#fff" />
+
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>

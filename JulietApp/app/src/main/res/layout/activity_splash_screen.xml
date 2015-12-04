@@ -16,9 +16,9 @@
             android:layout_width="162dp"
             android:layout_height="wrap_content"
             android:id="@+id/splash_logo"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="center"
             android:src="@drawable/logo_black"
-            android:layout_marginTop="100dp" />
+            android:layout_marginTop="200dp" />
 
         <ProgressBar
             android:layout_width="125dp"

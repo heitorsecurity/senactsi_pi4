@@ -38,12 +38,34 @@
                 android:textIsSelectable="false" />
 
             <ImageButton
-                android:id="@+id/imageButton"
+                android:id="@+id/btnSearch"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.16"
                 android:background="#37474F"
                 android:src="@drawable/ic_search" />
         </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/listPesquisa"
+                android:layout_gravity="center_horizontal"
+                android:visibility="visible"
+                android:background="#fff" />
+
+        </LinearLayout>
+
     </LinearLayout>
 </LinearLayout>

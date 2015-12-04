@@ -9,7 +9,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="fill_parent">
+        android:layout_height="fill_parent"
+        android:background="#fff">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -117,4 +118,4 @@
     </ScrollView>
 
 </LinearLayout>
-<!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp/app/src/main/res/layout/activity_termos.xml -->
+<!-- From: file:/C:/Users/Wesley/Downloads/Senac/Projeto/JulietApp%20-%20Package%20GPLAY/app/src/main/res/layout/activity_termos.xml -->

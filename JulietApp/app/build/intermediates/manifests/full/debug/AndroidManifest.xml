@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.wesbalbinolive.julietapp"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    package="com.wesbalbinogmail.julietapp"
+    android:versionCode="3"
+    android:versionName="1.2" >
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -20,8 +20,9 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.wesbalbinolive.julietapp.TermosActivity"
-            android:label="@string/app_name" >
+            android:name="com.wesbalbinogmail.julietapp.TermosActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,75 +30,80 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.wesbalbinolive.julietapp.HomeActivity"
+            android:name="com.wesbalbinogmail.julietapp.HomeActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.wesbalbinolive.julietapp.ProdutoActivity"
+            android:name="com.wesbalbinogmail.julietapp.ProdutoActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
-        <activity android:name="com.wesbalbinolive.julietapp.CameraActivity" >
+        <activity android:name="com.wesbalbinogmail.julietapp.CameraActivity" >
         </activity>
         <activity
-            android:name="com.wesbalbinolive.julietapp.LoginActivity"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.wesbalbinolive.julietapp.CadastroActivity"
+            android:name="com.wesbalbinogmail.julietapp.LoginActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.wesbalbinolive.julietapp.SobreActivity"
+            android:name="com.wesbalbinogmail.julietapp.CadastroActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.wesbalbinolive.julietapp.EnderecoActivity"
+            android:name="com.wesbalbinogmail.julietapp.SobreActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.wesbalbinolive.julietapp.CarrinhoActivity"
+            android:name="com.wesbalbinogmail.julietapp.EnderecoActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.wesbalbinolive.julietapp.PesquisaActivity"
+            android:name="com.wesbalbinogmail.julietapp.CarrinhoActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.wesbalbinolive.julietapp.ErroActivity"
+            android:name="com.wesbalbinogmail.julietapp.PesquisaActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.wesbalbinolive.julietapp.CheckoutActivity"
+            android:name="com.wesbalbinogmail.julietapp.ErroActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.wesbalbinolive.julietapp.CategoriasActivity"
+            android:name="com.wesbalbinogmail.julietapp.CheckoutActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.wesbalbinolive.julietapp.FinalizadaActivity"
+            android:name="com.wesbalbinogmail.julietapp.CategoriasActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.wesbalbinolive.julietapp.SplashScreen"
-            android:label="@string/app_name" >
+            android:name="com.wesbalbinogmail.julietapp.FinalizadaActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.wesbalbinogmail.julietapp.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.wesbalbinogmail.julietapp.ListagemProdutosActivity"
+            android:label="@string/app_name" >
         </activity>
     </application>
 

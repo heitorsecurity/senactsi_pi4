@@ -64,7 +64,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_weight="0.10"
                 android:gravity="bottom"
                 android:hint="@string/edtNomeCadastro"
                 android:maxLength="20"
@@ -79,7 +78,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_weight="0.10"
                 android:gravity="bottom"
                 android:hint="@string/edtSenhaCadastro"
                 android:inputType="textPassword"
@@ -91,20 +89,34 @@
                 android:textColorHint="#9c9c9c" />
 
             <EditText
-                android:id="@+id/edtConfirmaSenhaCadastro"
+                android:id="@+id/edtEmailCadastro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_weight="0.10"
                 android:gravity="bottom"
-                android:hint="@string/edtConfirmaSenhaCadastro"
+                android:hint="@string/edtEmailCadastro"
                 android:maxLength="50"
                 android:maxLines="1"
                 android:paddingBottom="20dp"
                 android:paddingLeft="15dp"
                 android:textColor="#000"
                 android:textColorHint="#9c9c9c"
-                android:inputType="textPassword" />
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/edtCpfCadastro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="bottom"
+                android:hint="@string/edtCpfCadastro"
+                android:maxLength="11"
+                android:maxLines="1"
+                android:paddingBottom="20dp"
+                android:paddingLeft="15dp"
+                android:textColor="#000"
+                android:textColorHint="#9c9c9c"
+                android:inputType="number" />
 
             <Button
                 android:id="@+id/btnCadastrar"

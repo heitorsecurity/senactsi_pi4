@@ -79,32 +79,21 @@
                     android:paddingBottom="20dp"
                     android:paddingLeft="15dp"
                     android:textColor="#000"
-                    android:textColorHint="#9c9c9c" />
+                    android:textColorHint="#9c9c9c"
+                    android:maxLength="50" />
 
                 <EditText
-                    android:id="@+id/edtBairro"
+                    android:id="@+id/edtNumero"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/edtBairro"
-                    android:inputType="text"
+                    android:hint="@string/edtNumero"
                     android:maxLines="1"
                     android:paddingBottom="20dp"
                     android:paddingLeft="15dp"
                     android:textColor="#000"
-                    android:textColorHint="#9c9c9c" />
-
-                <EditText
-                    android:id="@+id/edtCidade"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.00"
-                    android:hint="@string/edtCidade"
-                    android:inputType="text"
-                    android:maxLines="1"
-                    android:paddingBottom="20dp"
-                    android:paddingLeft="15dp"
-                    android:textColor="#000"
-                    android:textColorHint="#9c9c9c" />
+                    android:textColorHint="#9c9c9c"
+                    android:maxLength="5"
+                    android:inputType="number" />
 
                 <Button
                     android:id="@+id/btnConcluir"

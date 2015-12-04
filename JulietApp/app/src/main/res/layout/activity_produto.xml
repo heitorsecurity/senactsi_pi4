@@ -24,8 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Tenis Nike Air"
-            android:id="@+id/txtProduto"
+            android:id="@+id/txtNomeProduto"
             android:textSize="18sp"
             android:paddingBottom="6dp"
             android:paddingLeft="20dp"
@@ -35,8 +34,7 @@
             android:layout_width="190dp"
             android:layout_height="100dp"
             android:id="@+id/imgProduto"
-            android:layout_gravity="center_horizontal"
-            android:background="@drawable/produto" />
+            android:layout_gravity="center_horizontal" />
 
         <View
             android:layout_width="fill_parent"
@@ -45,11 +43,10 @@
             android:layout_marginTop="20dp"/>
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat voluptat."
             android:id="@+id/txtDescricaoProduto"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="center_vertical"
             android:textColor="#696969"
             android:textSize="13sp"
             android:layout_marginTop="5dp"
@@ -86,7 +83,6 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="499.99"
                         android:id="@+id/txtDescontoProduto"
                         android:textSize="13sp"
                         android:paddingLeft="10dp"
@@ -110,25 +106,25 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="399.99"
                         android:id="@+id/txtPrecoProduto"
                         android:paddingLeft="10dp"
                         android:textSize="16sp" />
 
                 </LinearLayout>
             </LinearLayout>
-            <Button
-                android:id="@+id/btnAddCarrinho"
-                android:layout_width="187dp"
-                android:layout_height="36dp"
-                android:background="#37474F"
-                android:drawableRight="@drawable/ic_carrinho"
-                android:paddingRight="10dp"
-                android:text="@string/btnAddAoCarrinho"
-                android:textColor="#fff"
-                android:layout_gravity="center_horizontal" />
 
         </LinearLayout>
+
+        <Button
+            android:id="@+id/btnAddCarrinho"
+            android:layout_width="187dp"
+            android:layout_height="36dp"
+            android:background="#37474F"
+            android:drawableRight="@drawable/ic_carrinho"
+            android:paddingRight="10dp"
+            android:text="@string/btnAddAoCarrinho"
+            android:textColor="#fff"
+            android:layout_gravity="center_horizontal" />
 
     </LinearLayout>
 

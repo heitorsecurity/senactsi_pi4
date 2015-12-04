@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Juliet Calçados</string>
-    <string name="btnCadastrar">Cadastrar</string>
+    <string name="btnCadastrar">Continuar</string>
     <string name="btnAceito">Acessar a loja</string>
     <string name="btnSair">Não concordo</string>
     <string name="btnSearch">Ir</string>
@@ -13,21 +13,22 @@
     <string name="action_sobre">Sobre</string>
     <string name="action_cadastro">Cadastro</string>
     <string name="action_login">Login</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
     <string name="edtNomeCadastro">Nome</string>
     <string name="edtConfirmaSenhaCadastro">Confirmar Senha</string>
     <string name="edtSenhaCadastro">Senha</string>
     <string name="edtSearch">Pesquisar</string>
-    <string name="edtUsuarioLogin">Usuário</string>
+    <string name="edtUsuarioLogin">E-mail</string>
     <string name="edtSenhaLogin">Senha</string>
+    <string name="edtEmailCadastro">E-mail</string>
+    <string name="edtCpfCadastro">Cpf</string>
     <string name="edtNrCartao">Nº do Cartão</string>
     <string name="edtValidadeCartao">Validade</string>
     <string name="edtParcelas">Parcelas</string>
     <string name="edtCep">Cep</string>
     <string name="edtQtd">qtd</string>
     <string name="edtLogradouro">Logradouro</string>
-    <string name="edtBairro">Bairro</string>
-    <string name="edtCidade">Cidade</string>
+    <string name="edtNumero">Número</string>
     <string name="chkMsg">Aceito os termos e condições</string>
     <string name="rdbCartao">Cartão de Crédito</string>
     <string name="rdbBoleto">Boleto</string>
@@ -52,7 +53,6 @@
     <string name="txtMsgCategoriaSalto">Salto Alto</string>
     <string name="txtMsgCompraFinalizada">Compra finalizada :)</string>
     <string name="txtMsgBemVindo">Bem vindo :)</string>
-    <string name="title_activity_splash_screen">SplashScreen</string>
 
-    <string name="hello_world">Hello world!</string>
+
 </resources>
