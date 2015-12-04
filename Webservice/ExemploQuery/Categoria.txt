@@ -1,0 +1,11 @@
+﻿idCategoria nomeCategoria                                      descCategoria
+----------- -------------------------------------------------- ----------------------------------------------------------------------------------------------------
+1           Tênis                                              
+2           Sandálias                                          
+3           Botas                                              
+4           Sapatos                                            
+5           Salto Alto                                         
+6           Sapatilhas                                         
+
+(6 row(s) affected)
+
